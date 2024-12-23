@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to CoLearn{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to CoLearn</h1>
+        <p>Your collaborative learning platform.</p>
+        <div class="buttons">
+            <a href=# class="btn btn-primary">Get Started</a>
+            <a href="{% url 'login' %}" class="btn btn-secondary">Log In</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

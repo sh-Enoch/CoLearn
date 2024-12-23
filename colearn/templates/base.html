@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}CoLearn{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <a href="{% url 'home' %}" class="logo">CoLearn</a>
+            <ul class="nav-links">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href=#>Dashboard</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Register</a></li>    
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dynamic Content -->
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CoLearn. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
