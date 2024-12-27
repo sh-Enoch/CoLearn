@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to {{ course.title }}</h1>
+<h1> Instructor name {{ course.instructor }}</h1>
+<h1>About this course</h1>
+<p>{{ course.description }}</p>
+<h1>modules for this course</h1>
+
+    {% for module in module %}
+    <ul>
+        <a href=#>
+            <b>{{ module.title }}</b>
+        </a>: 
+        {{ module.description }}
+    </ul>
+    {% endfor %}
+    <a href="">
+        <b> Enroll me</b>
+    </a>
+
+{% endblock %}
