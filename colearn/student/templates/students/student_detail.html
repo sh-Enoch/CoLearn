@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Student Detail{% endblock %}
+
+{% block content %}
+
+    <section class="student-detail">
+        <div class="container">
+            <h2>{{ student.first_name }} {{ student.last_name }}</h2>
+            <p>Email: {{ student.email }}</p>
+            <p>Age: {{ student.age }}</p>
+            <p>Grade: {{ student.grade }}</p>
+            <p>Teacher: {{ student.teacher }}</p>
+            <p>Subjects: {{ student.subjects.all|join:", " }}</p>
+            <a href="" class="btn btn-primary">Update Student</a>
+            <a href="" class="btn btn-danger">Delete Student</a>
+        </div>
+    </section>
+    
+{% endblock %}

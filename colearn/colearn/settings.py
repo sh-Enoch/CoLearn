@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    'users',
+    'student',
     'courses',
+    'instructor',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +128,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR /"colearn" /"static"]
+
+
+AUTH_USER_MODEL = 'student.User'
+
+
+LOGIN_REDIRECT_URL = 'student-list'
