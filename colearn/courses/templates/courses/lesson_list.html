@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1> Title {{ lesson.title }}</h1>
+    <p> Content {{ lesson.content }}</p>
+    <a href="{% url 'lesson-update' lesson.pk %}">Update</a>
+    <a href="">Delete</a>
+    <a href="" class="btn btn-secondary">Back to module</a>
+{% endblock %}

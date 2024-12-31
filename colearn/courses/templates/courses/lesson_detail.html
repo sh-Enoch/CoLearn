@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ lesson.title }}</h1>
+    <p>{{ lesson.description }}</p>
+    <a href="" class="btn btn-primary">Update</a>
+    <a href="" class="btn btn-danger">Delete</a>
+    <a href="" class="btn btn-secondary">Back to module</a>
+    <a href="" class="btn btn-secondary">Back to course</a>
+    <a href="" class="btn btn-secondary">Back to courses</a>
+    <a href="" class="btn btn-secondary">Back to home</a>
+    <hr>
+    <h2>Contents</h2>
+    <ul>
+        {% for content in lesson.contents.all %}
+            <li>{{ content.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="" class="btn btn-primary">Add Content</a>
+    <hr>
+    <h2>Comments</h2>
+    <ul>
+        {% for comment in lesson.comments.all %}
+            <li>{{ comment.text }}</li>
+        {% endfor %}
+    </ul>
+    <a href="" class="btn btn-primary">Add Comment</a>
+    <hr>
+    <h2>Resources</h2>
+    <ul>
+        {% for resource in lesson.resources.all %}
+            <li>{{ resource.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="" class="btn btn-primary">Add Resource</a>
+    <hr>
+    <h2>Quizzes</h2>
+    <ul>
+        {% for quiz in lesson.quizzes.all %}
+            <li>{{ quiz.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="" class="btn btn-primary">Add Quiz</a>
+    <hr>
+    <h2>Assignments</h2>
+    <ul>
+        <!-- {% for assignment in lesson.assignments.all %}
+            <li>{{ assignment.title }}</li -->
+</div>
+{% endblock %}

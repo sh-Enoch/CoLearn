@@ -3,7 +3,35 @@
 {% block title %}{{ course.title }}{% endblock %}
 
 {% block content %}
-    <h1>{{ course.title }}</h1>
-    <p>{{ course.description }}</p>
-    <p>Duration: {{ course.duration }} hours</p>
+<section class="bg-gray-50 py-16">
+  <div class="container mx-auto px-6">
+    <!-- Course Header -->
+    <div class="text-center mb-12">
+      <h1 class="text-5xl font-extrabold text-gray-900">{{ course.title }}</h1>
+      <p class="mt-4 text-lg text-gray-600">{{ course.description }}</p>
+      <button class="mt-6 bg-indigo-600 text-white px-8 py-3 rounded-lg shadow-md hover:bg-indigo-700">
+        Start Course
+      </button>
+    </div>
+
+    <!-- Module List -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for module in module %}
+      <div class="bg-white rounded-lg shadow-md p-6 relative">
+        <h2 class="text-xl font-bold text-gray-800">{{ module.title }}</h2>
+        <p class="text-gray-600 mt-3 mb-6">{{ module.description|truncatewords:15 }}</p>
+        <div class="absolute bottom-6 right-6">
+          <a href="{% url 'module-detail' module.id %}" class="text-indigo-600 font-semibold hover:underline">
+            View Module
+          </a>
+        </div>
+        <div class="mt-4 bg-gray-200 rounded-full h-2">
+          <div class="bg-indigo-600 h-2 rounded-full" style="width: 60%;"></div>
+        </div>
+        <p class="text-sm text-gray-500 mt-2">60% Complete</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 {% endblock %}

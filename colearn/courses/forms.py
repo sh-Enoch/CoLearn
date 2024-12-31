@@ -9,6 +9,19 @@ class CourseCreateForm(forms.ModelForm):
         fields = ['title', 'description', 'summary', 'featured', 'creator']
 
 
+class ModulesCreateForm(forms.ModelForm):
+    """Form for creating a module."""
+    class Meta:
+        model = Modules
+        fields = ['course', 'title', 'description', 'order']
+
+
+
+class LessonsCreateForm(forms.ModelForm):
+    """Form for creating a lesson."""
+    class Meta:
+        model = Lessons
+        fields = ['module', 'title', 'content', 'video_url', 'duration', 'order']
 
 
         
