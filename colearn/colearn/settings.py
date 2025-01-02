@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'student',
     'courses',
     'instructor',
+    "django_ckeditor_5",
 ]
 
 MIDDLEWARE = [
@@ -134,3 +135,15 @@ AUTH_USER_MODEL = 'student.User'
 
 
 LOGIN_REDIRECT_URL = 'student-list'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_5_CONFIGS = { 
+    'default': {
+         'toolbar': 'full', 
+         'height': '400', 
+         'width': 'auto',
+           }, 
+    }
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT =[BASE_DIR /'colearn' /'media']

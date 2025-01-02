@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 # Create your views here.
-from .models import Course, Modules, Lessons
-from .forms import CourseCreateForm, LessonsCreateForm, ModulesCreateForm
+from .models import Course, Modules, Lessons, Quizzes, CourseEnrollment
+from .forms import CourseCreateForm, LessonsCreateForm, ModulesCreateForm, QuizzesCreateForm, CourseEnrollmentForm
 from django.shortcuts import redirect, reverse
 
 
@@ -59,6 +59,13 @@ class LessonDetailView(DetailView):
     template_name = 'courses/lesson_detail.html'
     context_object_name = 'lesson'
     queryset = Lessons.objects.all()
+
+    def get_context_data(self, **kwargs):
+        """Get the context data for the lesson."""
+        context = super().get_context_data(**kwargs)
+        lesson_id = self.kwargs.get('pk')
+        context['quiz'] = Quizzes.objects.filter(lesson_id=lesson_id)
+        return context
 
 
 
@@ -176,3 +183,145 @@ class CourseDeleteView(DeleteView):
     def get_success_url(self):
         """Redirect to the course list."""
         return  reverse('course-list')
+
+
+
+"""Handle Read create update and delete operations for the quizzes"""
+class QuizzesCreateView(CreateView):
+    """Defines a way to add quizzes on to the quizzes available."""
+    template_name = 'courses/quizzes_create.html'
+    form_class = QuizzesCreateForm
+    context_object_name = 'quiz'
+
+
+    def get_context_data(self, **kwargs):
+        context =  super().get_context_data(**kwargs)
+        lesson_id = self.object.lesson.id
+        context['lesson_id'] = lesson_id
+        return context
+
+    def get_success_url(self):
+        """Redirect to the course list."""
+    
+        return  reverse('lesson-detail', kwargs={'pk':self.object.lesson.id})
+    
+
+class QuizzesUpdateView(UpdateView):
+    """Defines a way to update quizzes."""
+    template_name = 'courses/quizzes_update.html'
+    form_class = QuizzesCreateForm
+    queryset = Quizzes.objects.all()
+
+    def get_success_url(self):
+        """Redirect to the course list."""
+        return  reverse('quizzes-list')
+    
+
+class QuizzesDeleteView(DeleteView):
+    """Defines a way to delete quizzes."""
+    template_name = 'courses/quizzes_delete.html'
+    context_object_name = 'quiz'
+    queryset = Quizzes.objects.all()
+
+
+    
+    def get_context_data(self, **kwargs):
+        """Get the context data for the quizzes."""
+
+        context =  super().get_context_data(**kwargs)
+        lesson_id = self.object.lesson.id
+        context['lesson_id'] = lesson_id
+        return context
+    
+
+    def get_success_url(self):
+        """Redirect to the course list."""
+        return  reverse('lesson-detail', kwargs={'pk': self.object.lesson.id})
+    
+
+class QuizzesListView(ListView):
+    """List all quizzes in the platform."""
+    template_name = 'courses/quizzes_list.html'
+    model = Quizzes
+    context_object_name = 'quizzes'
+
+
+    def get_queryset(self):
+         return Quizzes.objects.order_by( 'lesson') 
+    
+    def get_context_data(self, **kwargs): 
+        """Get the context data for the quizzes.""" 
+        context = super().get_context_data(**kwargs)
+        context['courses'] = Course.objects.all().prefetch_related('modules__lessons_set__quizzes_set')
+        return context
+
+
+class QuizzesDetailView(DetailView):
+    """Defines a detailed view for a quiz."""
+    template_name = 'courses/quizzes_detail.html'
+    context_object_name = 'quiz'
+    queryset = Quizzes.objects.all()
+
+    def get_context_data(self, **kwargs):
+        """Get the context data for the quiz."""
+        context = super().get_context_data(**kwargs)
+        quiz = self.get_object()
+        context['is_list'] = isinstance(quiz, list)
+        context['lesson'] = quiz.lesson
+
+        return context
+    
+
+class CourseEnrollmentView(CreateView):
+    """Defines a way to enroll in a course."""
+    template_name = 'courses/course_enrollment.html'
+    form_class = CourseEnrollmentForm
+
+    def get_success_url(self):
+        """Redirect to the course list."""
+        return  reverse('course-list')
+    
+
+class CourseEnrollmentUpdateView(UpdateView):
+    """Defines a way to update course enrollment."""
+    template_name = 'courses/course_enrollment_update.html'
+    form_class = CourseEnrollmentForm
+    queryset = CourseEnrollment.objects.all()
+
+    def get_success_url(self):
+        """Redirect to the course list."""
+        return  reverse('course-list')
+    
+
+class CourseEnrollmentDeleteView(DeleteView):
+    """Defines a way to delete course enrollment."""
+    template_name = 'courses/course_enrollment_delete.html'
+    queryset = CourseEnrollment.objects.all()
+
+    def get_success_url(self):
+
+        """Redirect to the course list."""
+        return  reverse('course-list')
+    
+
+class CourseEnrollmentListView(ListView):
+    """List all course enrollments in the platform."""
+    template_name = 'courses/course_enrollment_list.html'
+    model = CourseEnrollment
+    context_object_name = 'enrollment'
+
+
+class CourseEnrollmentDetailView(DetailView):
+    """Defines a detailed view for a course enrollment."""
+    template_name = 'courses/course_enrollment_detail.html'
+    context_object_name = 'enrollment'
+    queryset = CourseEnrollment.objects.all()
+
+    def get_context_data(self, **kwargs):
+        """Get the context data for the course enrollment."""
+        context = super().get_context_data(**kwargs)
+        course_id = self.kwargs.get('pk') 
+        context['student'] = CourseEnrollment.objects.filter(course_id=course_id) 
+        return context
+
+

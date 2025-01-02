@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiz Detail{% endblock %}
+
+{% block content %}
+    <div class="container mx-auto p-4"> 
+        <h1 class="text-3xl font-bold mb-4">Knowledge Check</h1>
+        <form method="post"> {% csrf_token %} 
+            <div class="mb-6"> 
+
+               {% if is_list %} 
+
+                    {% for quiz in quizzes %} 
+                    <h2 class="text-2xl font-semibold mb-2">
+                        {{ forloop.counter }}. {{ quiz.question }}
+                    </h2> 
+                    <div class="ml-4"> 
+                    <input type="radio" id="option1_{{ forloop.counter }}" name="quiz_{{ quiz.id }}" value="{{ quiz.option1 }}"> 
+                    <label for="option1_{{ forloop.counter }}">
+                        {{ quiz.option1 }}
+                    </label>
+                    <br> 
+                    <input type="radio" id="option2_{{ forloop.counter }}" name="quiz_{{ quiz.id }}" value="{{ quiz.option2 }}">
+                    <label for="option2_{{ forloop.counter }}">
+                        {{ quiz.option2 }}
+                    </label>
+                    <br>
+                    <input type="radio" id="option3_{{ forloop.counter }}" name="quiz_{{ quiz.id }}" value="{{ quiz.option3 }}"> 
+                    <label for="option3_{{ forloop.counter }}">
+                        {{ quiz.option3 }}
+                    </label>
+                    <br> 
+                </div> 
+                {% endfor %} 
+            {% else %}
+
+                <h2 class="text-2xl font-semibold mb-2">
+                    {{ quiz.question }}
+                </h2> 
+                <div class="ml-4"> 
+                    <input type="radio" id="option1" name="quiz" value="{{ quiz.option1 }}"> 
+                    <label for="option1">
+                        {{ quiz.option1 }}
+                    </label>
+                    <br> 
+                    <input type="radio" id="option2" name="quiz" value="{{ quiz.option2 }}">
+                    <label for="option2">
+                        {{ quiz.option2 }}
+                    </label>
+                    <br>
+                    <input type="radio" id="option3" name="quiz" value="{{ quiz.option3 }}"> 
+                    <label for="option3">
+                        {{ quiz.option3 }}
+                    </label>
+                    <br> 
+                </div> 
+            {% endif %}
+        </div> 
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+            Submit
+        </button> 
+    </form>
+
+
+    <a href="{% url 'quizzes-update' quiz.id %}" class="text-blue-500 hover:underline">
+        Update Quiz
+    </a>
+    |
+    <a href="{% url 'quizzes-delete' quiz.id %}" class="text-red-500 hover:underline">
+        Delete Quiz
+    </a>
+    |
+    <a href="{% url 'lesson-detail' lesson.pk %}" class="text-gray-500 hover:underline">
+        Back to Lesson
+    </a>
+</div>
+
+{% endblock %}
+

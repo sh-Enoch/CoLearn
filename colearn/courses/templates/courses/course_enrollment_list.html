@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Enrollments{% endblock %}
+
+{% block content %}
+
+<h1>Enrollments</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Course</th>
+            <th>Enrolled</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for enrollment in enrollments %}
+        <tr>
+            <td>{{ enrollment.course }}</td>
+            <td>{{ enrollment.enrolled }}</td>
+            <td>
+                <a href="{% url 'courses:course_enrollment' enrollment.course.id %}">Enroll</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
+
+

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Delete Quiz{% endblock %}
+
+{% block content %}
+<h1>Are you sure you want to delete the quiz "{{ quiz.question }}"?</h1>
+ <form method="post"> 
+    {% csrf_token %}
+     <button type="submit">Confirm</button>
+      <a href="{% url 'lesson-detail' lesson_id %}">Cancel</a>
+ </form>
+    
+{% endblock %}

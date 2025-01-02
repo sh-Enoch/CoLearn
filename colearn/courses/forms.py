@@ -1,4 +1,4 @@
-from .models  import Course, Modules, Lessons
+from .models  import Course, Modules, Lessons,  Quizzes, CourseEnrollment
 from django import forms
 
 
@@ -24,4 +24,18 @@ class LessonsCreateForm(forms.ModelForm):
         fields = ['module', 'title', 'content', 'video_url', 'duration', 'order']
 
 
+
+class QuizzesCreateForm(forms.ModelForm):
+    """Form for creating a quiz."""
+    class Meta:
+        model = Quizzes
+        fields = ['module', 'title', 'lesson', 'question', 'option1', 'option2', 'option3', 'answer']
+
+
+
         
+class CourseEnrollmentForm(forms.ModelForm):
+    """Form for enrolling in a course."""
+    class Meta:
+        model = CourseEnrollment
+        fields = ['course', 'student', 'completed']
