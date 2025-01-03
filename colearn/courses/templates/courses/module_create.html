@@ -1,13 +1,23 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<div class="container">
-    <h1>Create Module</h1>
+<div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-4">Create Module</h1>
     <form method="post">
         {% csrf_token %}
+        {{ form.media }}
         {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Create</button>
-        
+        <div class="flex justify-between mt-4">
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Create</button>
+            <a href="{% url 'module-list' %}" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Cancel</a>
+        </div>
     </form>
 </div>
+
+{% block extra_js %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'ckeditor/ckeditor-init.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ckeditor/ckeditor/ckeditor.js' %}"></script>
+{% endblock %}
 {% endblock %}

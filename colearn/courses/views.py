@@ -40,6 +40,7 @@ class CourseDetailView(DetailView):
         context['module'] = Modules.objects.filter(course_id=course_id) 
         return context
 
+    
 
 class ModuleDetailView(DetailView):
     """Defines a detailed view for a module."""
@@ -83,11 +84,11 @@ class ModuleCreateView(CreateView):
     """Defines a way to add modules on to the modules available."""
     template_name = 'courses/module_create.html'
     form_class = ModulesCreateForm
+    context_object_name = 'module'
+
 
     def get_success_url(self):
-        """Redirect to the course list."""
-        return  reverse('module-list')
-    
+        return reverse('module-detail', kwargs={'pk':self.object.course.id})
 
 class LessonCreateView(CreateView):
     """Defines a way to add lessons on to the lessons available."""
@@ -97,8 +98,6 @@ class LessonCreateView(CreateView):
     def get_success_url(self):
         """Redirect to the course list."""
         return  reverse('lesson-list')
-    
-
 
 
 class CourseUpdateView(UpdateView):
@@ -146,12 +145,18 @@ class CourseDeleteView(DeleteView):
 class ModuleDeleteView(DeleteView):
     """Defines a way to delete modules."""
     template_name = 'courses/module_delete.html'
+    context_object_name = 'module'
     queryset = Modules.objects.all()
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        course_id = self.object.course.id
+        context['course_id'] = course_id
+        return context
+
     def get_success_url(self):
-        """Redirect to the course list."""
-        return  reverse('module-list')
-    
+        """Redirect to the module list."""
+        return reverse('module-detail', kwargs={'pk': self.object.id})
 
 class LessonDeleteView(DeleteView):
     """Defines a way to delete lessons."""
