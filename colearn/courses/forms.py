@@ -1,5 +1,6 @@
 from .models import Course, Modules, Lessons, Quizzes, CourseEnrollment, Resource
 from django import forms
+from django_ckeditor_5.widgets import CKEditor5Widget
 
 class CourseCreateForm(forms.ModelForm):
     """Form for creating a course."""
@@ -43,6 +44,8 @@ class ModulesCreateForm(forms.ModelForm):
 
 class LessonsCreateForm(forms.ModelForm):
     """Form for creating a lesson."""
+    content = forms.CharField(widget=CKEditor5Widget(config_name='extends'))
+    
     class Meta:
         model = Lessons
         fields = ['module', 'title', 'content', 'video_url', 'duration', 'order']

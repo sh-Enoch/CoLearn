@@ -4,9 +4,9 @@
     <h1>{{ module.course.title }}</h1>
     <h2>{{ module.title }}</h2>
     <p>{{ module.description }}</p>
-    <a href="{% url 'module_update' module.id %}" class="btn btn-primary">Update</a>
-    <a href="{% url 'module_delete' module.id %}" class="btn btn-danger">Delete</a>
-    <a href="{% url 'module_list' module.course.id %}" class="btn btn-secondary">Back to course</a>
+    <a href="" class="btn btn-primary">Update</a>
+    <a href="" class="btn btn-danger">Delete</a>
+    <a href="" class="btn btn-secondary">Back to course</a>
     <h3>Lessons</h3>
     <ul>
         {% for lesson in module.lessons.all %}
@@ -15,6 +15,6 @@
             </li>
         {% endfor %}
     </ul>
-    <a href="{% url 'lesson_create' module.id %}" class="btn btn-primary">Add Lesson</a>
+    <a href="" class="btn btn-primary">Add Lesson</a>
 </div>
 {% endblock %}

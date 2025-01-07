@@ -3,14 +3,45 @@
 {% block title %}Welcome to CoLearn{% endblock %}
 
 {% block content %}
-<section class="hero">
-    <div class="container">
-        <h1>Welcome to CoLearn</h1>
-        <p>Your collaborative learning platform.</p>
+<section class="hero" style="background: linear-gradient(to right, #6a11cb, #2575fc); color: white; padding: 50px 0; text-align: center;">
+    <div class="container" style="max-width: 800px; margin: auto;">
+        <h1 style="font-family: 'Arial', sans-serif; font-size: 48px; margin-bottom: 20px;">Welcome to CoLearn</h1>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; margin-bottom: 40px;">Your collaborative learning platform.</p>
         <div class="buttons">
-            <a href=# class="btn btn-primary">Get Started</a>
-            <a href="{% url 'login' %}" class="btn btn-secondary">Log In</a>
+            <a href="#" class="btn btn-primary" style="padding: 15px 30px; background-color: #007bff; border: none; border-radius: 25px; color: white; text-decoration: none; font-size: 16px; margin-right: 10px;">Get Started</a>
+            <a href="{% url 'login' %}" class="btn btn-secondary" style="padding: 15px 30px; background-color: #6c757d; border: none; border-radius: 25px; color: white; text-decoration: none; font-size: 16px;">Log In</a>
         </div>
     </div>
 </section>
+
+<section class="about" style="padding: 50px 0; text-align: center;">
+    <div class="container" style="max-width: 800px; margin: auto;">
+        <h2 style="font-family: 'Arial', sans-serif; font-size: 36px; margin-bottom: 20px;">About CoLearn</h2>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; margin-bottom: 40px;">CoLearn is a platform designed to bring learners and educators together. We believe in the power of collaborative learning and strive to create an environment where everyone can thrive.</p>
+    </div>
+</section>
+
+<section class="features" style="background-color: #f8f9fa; padding: 50px 0; text-align: center;">
+    <div class="container" style="max-width: 800px; margin: auto;">
+        <h2 style="font-family: 'Arial', sans-serif; font-size: 36px; margin-bottom: 20px;">Features</h2>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; margin-bottom: 20px;">Our platform offers a wide range of features to enhance your learning experience:</p>
+        <ul style="font-family: 'Arial', sans-serif; font-size: 18px; list-style: none; padding: 0;">
+            <li style="margin-bottom: 10px;">Interactive Courses</li>
+            <li style="margin-bottom: 10px;">Real-time Collaboration</li>
+            <li style="margin-bottom: 10px;">Expert Educators</li>
+            <li style="margin-bottom: 10px;">Community Support</li>
+        </ul>
+    </div>
+</section>
+
+
+
+<section class="contact" style="padding: 50px 0; text-align: center;">
+    <div class="container" style="max-width: 800px; margin: auto;">
+        <h2 style="font-family: 'Arial', sans-serif; font-size: 36px; margin-bottom: 20px;">Contact Us</h2>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; margin-bottom: 20px;">Have any questions or feedback? Reach out to us, and we'll be happy to assist you!</p>
+        <a href="mailto:info@colearn.com" class="btn btn-primary" style="padding: 15px 30px; background-color: #007bff; border: none; border-radius: 25px; color: white; text-decoration: none; font-size: 16px;">Email Us</a>
+    </div>
+</section>
+
 {% endblock %}

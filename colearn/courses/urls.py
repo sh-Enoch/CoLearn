@@ -19,8 +19,8 @@ urlpatterns = [
     path('lesson/<int:pk>', LessonDetailView.as_view(), name='lesson-detail'),
 
     #create lesson and module paths
-    path('module/create/', ModuleCreateView.as_view(), name='module-create'),
-    path('lesson/create/', LessonCreateView.as_view(), name='lesson-create'),
+    path('course/<int:course_id>/module/create/', ModuleCreateView.as_view(), name='module-create'),
+    path('module/<int:module_id>/lesson/create/', LessonCreateView.as_view(), name='lesson-create'),
 
 
     #path to update and delete modules and lessons

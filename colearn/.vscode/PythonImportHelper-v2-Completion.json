@@ -1,0 +1,1731 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "isExtraImport": true,
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollment",
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "isExtraImport": true,
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Modules",
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "isExtraImport": true,
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lessons",
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "isExtraImport": true,
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django_ckeditor_5.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_ckeditor_5.fields",
+        "description": "django_ckeditor_5.fields",
+        "detail": "django_ckeditor_5.fields",
+        "documentation": {}
+    },
+    {
+        "label": "CKEditor5Field",
+        "importPath": "django_ckeditor_5.fields",
+        "description": "django_ckeditor_5.fields",
+        "isExtraImport": true,
+        "detail": "django_ckeditor_5.fields",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "CKEditor5Widget",
+        "importPath": "django_ckeditor_5.widgets",
+        "description": "django_ckeditor_5.widgets",
+        "isExtraImport": true,
+        "detail": "django_ckeditor_5.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileConfig",
+        "kind": 6,
+        "importPath": "Profile.apps",
+        "description": "Profile.apps",
+        "peekOfCode": "class ProfileConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Profile'",
+        "detail": "Profile.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileView",
+        "kind": 6,
+        "importPath": "Profile.views",
+        "description": "Profile.views",
+        "peekOfCode": "class ProfileView(TemplateView):\n    template_name = 'profile/profile.html'",
+        "detail": "Profile.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_statistics",
+        "kind": 2,
+        "importPath": "Profile.views",
+        "description": "Profile.views",
+        "peekOfCode": "def get_statistics():\n    \"\"\"Method to get the course statistics.\"\"\"\n    courses =  Course.objects.all()\n    course_count = courses.count()\n    modules =  Modules.objects.order_by(courses)\nclass ProfileView(TemplateView):\n    template_name = 'profile/profile.html'",
+        "detail": "Profile.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "colearn.asgi",
+        "description": "colearn.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "colearn.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core',\n    'student',\n    'courses',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_ALLOWED_TEMPLATE_PACKS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "CRISPY_ALLOWED_TEMPLATE_PACKS = \"tailwind\"\nCRISPY_TEMPLATE_PACK = \"tailwind\"\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_TEMPLATE_PACK",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"tailwind\"\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'colearn.urls'",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "ROOT_URLCONF = 'colearn.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'colearn.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_URL = \"/static/\"",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_URL = \"/static/\"\nSTATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_URL = \"/static/\"\nSTATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]\nAUTH_USER_MODEL = 'student.User'",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_URL = \"/static/\"\nSTATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]\nAUTH_USER_MODEL = 'student.User'\nLOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSTATIC_URL = \"/static/\"\nSTATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]\nAUTH_USER_MODEL = 'student.User'\nLOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]\nAUTH_USER_MODEL = 'student.User'\nLOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR /\"colearn\" /\"static\"]\nAUTH_USER_MODEL = 'student.User'\nLOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },\n        {",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'student.User'\nLOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },\n        {\n            'color': 'hsl(340, 82%, 52%)',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'student-list'\nCKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },\n        {\n            'color': 'hsl(340, 82%, 52%)',\n            'label': 'Pink'",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CKEDITOR_UPLOAD_PATH",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "CKEDITOR_UPLOAD_PATH = \"uploads/\"\ncustomColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },\n        {\n            'color': 'hsl(340, 82%, 52%)',\n            'label': 'Pink'\n        },",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "customColorPalette",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "customColorPalette = [\n    {\n            'color': 'hsl(4, 90%, 58%)',\n            'label': 'Red'\n        },\n        {\n            'color': 'hsl(340, 82%, 52%)',\n            'label': 'Pink'\n        },\n        {",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CKEDITOR_5_CONFIGS",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "CKEDITOR_5_CONFIGS = {\n    'default': {\n        'toolbar': ['heading', '|', 'bold', 'italic', 'link',\n                    'bulletedList', 'numberedList', 'blockQuote', 'imageUpload', ],\n    },\n    'extends': {\n        'blockToolbar': [\n            'paragraph', 'heading1', 'heading2', 'heading3',\n            '|',\n            'bulletedList', 'numberedList',",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT =[BASE_DIR /'colearn' /'media']\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CKEDITOR_5_FILE_UPLOAD_PERMISSION",
+        "kind": 5,
+        "importPath": "colearn.settings",
+        "description": "colearn.settings",
+        "peekOfCode": "CKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"",
+        "detail": "colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "colearn.urls",
+        "description": "colearn.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('student/', include('student.urls')),\n    path('courses/', include('courses.urls')),\n]\nurlpatterns += [\n    path(\"ckeditor5/\", include('django_ckeditor_5.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "colearn.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "colearn.wsgi",
+        "description": "colearn.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "colearn.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', HomePageView.as_view(), name='home'),\n    path('login/', LoginView.as_view(), name='login'),\n    path('logout/', LogoutView.as_view(), name='logout'),\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HomePageView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class HomePageView(TemplateView):\n    template_name = 'landing.html'",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0001_initial",
+        "description": "courses.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Course',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "courses.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0002_comments_courseenrollment_quizzes",
+        "description": "courses.migrations.0002_comments_courseenrollment_quizzes",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Comments',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "courses.migrations.0002_comments_courseenrollment_quizzes",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0003_courseenrollment_completed_delete_comments",
+        "description": "courses.migrations.0003_courseenrollment_completed_delete_comments",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0002_comments_courseenrollment_quizzes'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='courseenrollment',\n            name='completed',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "courses.migrations.0003_courseenrollment_completed_delete_comments",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0004_quizzes_title",
+        "description": "courses.migrations.0004_quizzes_title",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0003_courseenrollment_completed_delete_comments'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='quizzes',\n            name='title',\n            field=models.CharField(default='Knowledge Check', max_length=120),\n        ),",
+        "detail": "courses.migrations.0004_quizzes_title",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0005_quizzes_module",
+        "description": "courses.migrations.0005_quizzes_module",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0004_quizzes_title'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='quizzes',\n            name='module',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='courses.modules'),\n            preserve_default=False,",
+        "detail": "courses.migrations.0005_quizzes_module",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0006_alter_lessons_content",
+        "description": "courses.migrations.0006_alter_lessons_content",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0005_quizzes_module'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='lessons',\n            name='content',\n            field=django_ckeditor_5.fields.CKEditor5Field(),\n        ),",
+        "detail": "courses.migrations.0006_alter_lessons_content",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "courses.migrations.0007_resource",
+        "description": "courses.migrations.0007_resource",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('courses', '0006_alter_lessons_content'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Resource',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=120)),",
+        "detail": "courses.migrations.0007_resource",
+        "documentation": {}
+    },
+    {
+        "label": "CourseAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class CourseAdmin(admin.ModelAdmin):\n    list_display = ['title', 'creator', 'created_at', 'featured']\n    search_fields = ['title']\n@admin.register(Modules)\nclass ModulesAdmin(admin.ModelAdmin):\n    list_display = ['title', 'course', 'order']\n    list_filter = ['course']\n    ordering = ['course', 'order']\n@admin.register(Lessons)\nclass LessonsAdmin(admin.ModelAdmin):",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ModulesAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class ModulesAdmin(admin.ModelAdmin):\n    list_display = ['title', 'course', 'order']\n    list_filter = ['course']\n    ordering = ['course', 'order']\n@admin.register(Lessons)\nclass LessonsAdmin(admin.ModelAdmin):\n    list_display = ['title', 'module', 'order', 'duration']\n    ordering = ['module', 'order']\n@admin.register(Quizzes)\nclass QuizzesAdmin(admin.ModelAdmin):",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "LessonsAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class LessonsAdmin(admin.ModelAdmin):\n    list_display = ['title', 'module', 'order', 'duration']\n    ordering = ['module', 'order']\n@admin.register(Quizzes)\nclass QuizzesAdmin(admin.ModelAdmin):\n    list_display = ['title', 'lesson', 'question']\n@admin.register(CourseEnrollment)\nclass CourseEnrollmentAdmin(admin.ModelAdmin):\n    list_display = ['course', 'student', 'date_enrolled', 'progress', 'completed']\n@admin.register(Resource)",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class QuizzesAdmin(admin.ModelAdmin):\n    list_display = ['title', 'lesson', 'question']\n@admin.register(CourseEnrollment)\nclass CourseEnrollmentAdmin(admin.ModelAdmin):\n    list_display = ['course', 'student', 'date_enrolled', 'progress', 'completed']\n@admin.register(Resource)\nclass ResourceAdmin(admin.ModelAdmin):\n    list_display = ['title', 'lesson', 'file', 'link'] \n    list_filter = ['lesson']\n    search_fields = ['title']",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class CourseEnrollmentAdmin(admin.ModelAdmin):\n    list_display = ['course', 'student', 'date_enrolled', 'progress', 'completed']\n@admin.register(Resource)\nclass ResourceAdmin(admin.ModelAdmin):\n    list_display = ['title', 'lesson', 'file', 'link'] \n    list_filter = ['lesson']\n    search_fields = ['title']",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ResourceAdmin",
+        "kind": 6,
+        "importPath": "courses.admin",
+        "description": "courses.admin",
+        "peekOfCode": "class ResourceAdmin(admin.ModelAdmin):\n    list_display = ['title', 'lesson', 'file', 'link'] \n    list_filter = ['lesson']\n    search_fields = ['title']",
+        "detail": "courses.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CoursesConfig",
+        "kind": 6,
+        "importPath": "courses.apps",
+        "description": "courses.apps",
+        "peekOfCode": "class CoursesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'courses'",
+        "detail": "courses.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreateForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class CourseCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a course.\"\"\"\n    class Meta:\n        model = Course\n        fields = ['title', 'description', 'summary', 'featured', 'creator']\n        widgets = {\n            'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter course title'}),\n            'description': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Enter a detailed description'}),\n            'summary': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Enter a brief summary'}),\n            'featured': forms.CheckboxInput(attrs={'class': 'form-check-input'}),",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ModulesCreateForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class ModulesCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a module.\"\"\"\n    class Meta:\n        model = Modules\n        fields = ['course', 'title', 'description', 'order']\n        widgets = {\n            'course': forms.Select(attrs={'class': 'form-control'}),\n            'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter module title'}),\n            'description': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Enter module description'}),\n            'order': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Enter module order'}),",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LessonsCreateForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class LessonsCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a lesson.\"\"\"\n    title = forms.CharField(widget=CKEditor5Widget(config_name='extends'))\n    content = forms.CharField(widget=CKEditor5Widget(config_name='extends'))\n    class Meta:\n        model = Lessons\n        fields = ['module', 'title', 'content', 'video_url', 'duration', 'order']\n        widgets = {\n            'module': forms.Select(attrs={'class': 'form-control'}),\n            'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter lesson title'}),",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesCreateForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class QuizzesCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a quiz.\"\"\"\n    class Meta:\n        model = Quizzes\n        fields = ['module', 'title', 'lesson', 'question', 'option1', 'option2', 'option3', 'answer']\n        widgets = {\n            'module': forms.Select(attrs={'class': 'form-control'}),\n            'lesson': forms.Select(attrs={'class': 'form-control'}),\n            'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter quiz title'}),\n            'question': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Enter quiz question'}),",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class CourseEnrollmentForm(forms.ModelForm):\n    \"\"\"Form for enrolling in a course.\"\"\"\n    class Meta:\n        model = CourseEnrollment\n        fields = ['course', 'student', 'completed']\n        widgets = {\n            'course': forms.Select(attrs={'class': 'form-control'}),\n            'student': forms.Select(attrs={'class': 'form-control'}),\n            'completed': forms.CheckboxInput(attrs={'class': 'form-check-input'}),\n        }",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResourceCreateForm",
+        "kind": 6,
+        "importPath": "courses.forms",
+        "description": "courses.forms",
+        "peekOfCode": "class ResourceCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a resource.\"\"\"\n    class Meta:\n        model = Resource\n        fields = ['lesson', 'title', 'description', 'resource_type', 'file', 'link']\n    def clean(self):\n        \"\"\"Custom validation for the Resource form.\"\"\"\n        cleaned_data = super().clean()\n        resource_type = cleaned_data.get('resource_type')\n        file = cleaned_data.get('file')",
+        "detail": "courses.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class Course(models.Model):\n    \"\"\"Model for the courses in the platform.\"\"\"\n    title = models.CharField(max_length=120)\n    description = models.TextField()\n    summary = models.TextField(default='This is cool!')\n    featured = models.BooleanField(default=True, null=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    creator = models.ForeignKey('student.User', on_delete=models.CASCADE, null=True)\n    def __str__(self):",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Modules",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class Modules(models.Model):\n    \"\"\"Model for the modules in the course.\"\"\"\n    course = models.ForeignKey(Course, on_delete=models.CASCADE)\n    title = models.CharField(max_length=120)\n    description = models.TextField()\n    order = models.PositiveIntegerField(default=0)\n    class Meta:\n        ordering = ['order']\n    def __str__(self):\n        return f\"{self.title} - {self.course.title}\"",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lessons",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class Lessons(models.Model):\n    \"\"\"Model for the lessons in the course.\"\"\"\n    module = models.ForeignKey(Modules, on_delete=models.CASCADE)\n    title = CKEditor5Field('Title', config_name='extends')\n    content = CKEditor5Field('Title', config_name='extends')\n    video_url = models.URLField(null=True, blank=True, max_length=200)\n    duration = models.DurationField(null=True, blank=True, help_text='Duration of the video eg 00:10:00 for 10 minutes')\n    order = models.PositiveIntegerField(default=0)\n    class Meta:\n        ordering = ['order']",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Quizzes",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class Quizzes(models.Model):\n    \"\"\"Model for the quizzes in the course.\"\"\"\n    module = models.ForeignKey(Modules, on_delete=models.CASCADE)\n    title = models.CharField(max_length=120, default='Knowledge Check')\n    lesson = models.ForeignKey(Lessons, on_delete=models.CASCADE)\n    question = models.CharField(max_length=200)\n    option1 = models.CharField(max_length=200)\n    option2 = models.CharField(max_length=200)\n    option3 = models.CharField(max_length=200)\n    options = [",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollment",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class CourseEnrollment(models.Model):\n    course = models.ForeignKey(Course, on_delete=models.CASCADE)\n    student = models.ForeignKey('student.User', on_delete=models.CASCADE)\n    date_enrolled = models.DateTimeField(auto_now_add=True)\n    completed = models.BooleanField(default=False)\n    @property\n    def progress(self):\n        \"\"\"Calculate and return the student's progress in the course.\"\"\"\n        total_lessons = self.course.modules.all().aggregate(\n            total_lessons=models.Count('lessons')",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "kind": 6,
+        "importPath": "courses.models",
+        "description": "courses.models",
+        "peekOfCode": "class Resource(models.Model):\n    \"\"\"Model for resources related to lessons.\"\"\"\n    RESOURCE_TYPES = [\n        ('PDF', 'PDF Document'),\n        ('LINK', 'Web Link'),\n        ('VIDEO', 'Video File'),\n        ('IMAGE', 'Image File'),\n        ('OTHER', 'Other File Type'),\n    ]\n    lesson = models.ForeignKey('Lessons', on_delete=models.CASCADE, related_name='resources')",
+        "detail": "courses.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "courses.urls",
+        "description": "courses.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', CourseListView.as_view(), name='course-list'),\n    path('<int:pk>/', CourseDetailView.as_view(), name='course-detail'),\n    path('create/', CourseCreateView.as_view(), name='course-create'),\n    path('<int:pk>/update/', CourseUpdateView.as_view(), name='course-update'),\n    path('<int:pk>/delete/', CourseDeleteView.as_view(), name='course-delete'),\n    #path to view module and lesson list\n    path('module/', ModuleListView.as_view(), name='module-list'),\n    path('lesson/', LessonListView.as_view(), name='lesson-list'),\n    #detail views for modules and lessons",
+        "detail": "courses.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CourseListView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseListView(ListView):\n    \"\"\"List all courses in the platform.\"\"\"\n    template_name = 'courses/course_list.html'\n    model = Course\n    context_object_name = 'courses'\nclass ModuleListView(ListView):\n    \"\"\"List all modules in the platform.\"\"\"\n    template_name = 'courses/module_list.html'\n    model = Modules\n    context_object_name = 'modules'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleListView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class ModuleListView(ListView):\n    \"\"\"List all modules in the platform.\"\"\"\n    template_name = 'courses/module_list.html'\n    model = Modules\n    context_object_name = 'modules'\nclass LessonListView(ListView):\n    \"\"\"List all lessons in the platform.\"\"\"\n    template_name = 'courses/lesson_list.html'\n    model = Lessons\n    context_object_name = 'lessons'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "LessonListView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class LessonListView(ListView):\n    \"\"\"List all lessons in the platform.\"\"\"\n    template_name = 'courses/lesson_list.html'\n    model = Lessons\n    context_object_name = 'lessons'\nclass CourseDetailView(DetailView):\n    \"\"\"Defines a detailed view for a course.\"\"\"\n    template_name = 'courses/course_detail.html'\n    context_object_name = 'course'\n    queryset = Course.objects.all()",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseDetailView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseDetailView(DetailView):\n    \"\"\"Defines a detailed view for a course.\"\"\"\n    template_name = 'courses/course_detail.html'\n    context_object_name = 'course'\n    queryset = Course.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the course.\"\"\"\n        context = super().get_context_data(**kwargs)\n        course_id = self.kwargs.get('pk') \n        context['module'] = Modules.objects.filter(course_id=course_id) ",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleDetailView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class ModuleDetailView(DetailView):\n    \"\"\"Defines a detailed view for a module.\"\"\"\n    template_name = 'courses/module_detail.html'\n    context_object_name = 'module'\n    queryset = Modules.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the module.\"\"\"\n        context = super().get_context_data(**kwargs)\n        module_id = self.kwargs.get('pk')\n        context['lesson'] = Lessons.objects.filter(module_id=module_id)",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "LessonDetailView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class LessonDetailView(DetailView):\n    \"\"\"Defines a detailed view for a lesson.\"\"\"\n    template_name = 'courses/lesson_detail.html'\n    context_object_name = 'lesson'\n    queryset = Lessons.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the lesson.\"\"\"\n        context = super().get_context_data(**kwargs)\n        lesson_id = self.kwargs.get('pk')\n        context['quiz'] = Quizzes.objects.filter(lesson_id=lesson_id)",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseCreateView(CreateView):\n    \"\"\"Defines a way to add courses on to the courses available.\"\"\"\n    template_name = 'courses/course_create.html'\n    form_class = CourseCreateForm\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass ModuleCreateView(CreateView):\n    \"\"\"Defines a way to add modules on to the modules available.\"\"\"\n    template_name = 'courses/module_create.html'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleCreateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class ModuleCreateView(CreateView):\n    \"\"\"Defines a way to add modules on to the modules available.\"\"\"\n    template_name = 'courses/module_create.html'\n    form_class = ModulesCreateForm\n    context_object_name = 'module'\n    def get_context_data(self, **kwargs):\n        context =  super().get_context_data(**kwargs)\n        course_id = self.kwargs.get('course_id')\n        context['course_id'] = course_id\n        return context",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "LessonCreateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class LessonCreateView(CreateView):\n    template_name = 'courses/lesson_create.html'\n    form_class = LessonsCreateForm\n    context_object_name = 'lesson'\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        module_id = self.kwargs.get('module_id')\n        print(f\"Debug - Module ID: {module_id}\")  # Debug line\n        context['module_id'] = module_id\n        return context",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseUpdateView(UpdateView):\n    \"\"\"Defines a way to update courses.\"\"\"\n    template_name = 'courses/course_update.html'\n    form_class = CourseCreateForm\n    queryset = Course.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass ModuleUpdateView(UpdateView):\n    \"\"\"Defines a way to update modules.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class ModuleUpdateView(UpdateView):\n    \"\"\"Defines a way to update modules.\"\"\"\n    template_name = 'courses/module_update.html'\n    form_class = CourseCreateForm\n    queryset = Modules.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('module-list')\nclass LessonUpdateView(UpdateView):\n    \"\"\"Defines a way to update lessons.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "LessonUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class LessonUpdateView(UpdateView):\n    \"\"\"Defines a way to update lessons.\"\"\"\n    template_name = 'courses/lesson_update.html'\n    form_class = CourseCreateForm\n    queryset = Lessons.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('lesson-list')\nclass CourseDeleteView(DeleteView):\n    \"\"\"Defines a way to delete courses.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseDeleteView(DeleteView):\n    \"\"\"Defines a way to delete courses.\"\"\"\n    template_name = 'courses/course_delete.html'\n    queryset = Course.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass ModuleDeleteView(DeleteView):\n    \"\"\"Defines a way to delete modules.\"\"\"\n    template_name = 'courses/module_delete.html'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class ModuleDeleteView(DeleteView):\n    \"\"\"Defines a way to delete modules.\"\"\"\n    template_name = 'courses/module_delete.html'\n    context_object_name = 'module'\n    queryset = Modules.objects.all()\n    def get_queryset(self):\n        context = super().get_queryset()\n        course_id = self.object.course.id\n        context['course_id'] = course_id\n        return context",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "LessonDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class LessonDeleteView(DeleteView):\n    \"\"\"Defines a way to delete lessons.\"\"\"\n    template_name = 'courses/lesson_delete.html'\n    queryset = Lessons.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('lesson-list')\nclass CourseUpdateView(UpdateView):\n    \"\"\"Defines a way to update courses.\"\"\"\n    template_name = 'courses/course_update.html'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseUpdateView(UpdateView):\n    \"\"\"Defines a way to update courses.\"\"\"\n    template_name = 'courses/course_update.html'\n    form_class = CourseCreateForm\n    queryset = Course.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass CourseDeleteView(DeleteView):\n    \"\"\"Defines a way to delete courses.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseDeleteView(DeleteView):\n    \"\"\"Defines a way to delete courses.\"\"\"\n    template_name = 'courses/course_delete.html'\n    queryset = Course.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\n\"\"\"Handle Read create update and delete operations for the quizzes\"\"\"\nclass QuizzesCreateView(CreateView):\n    \"\"\"Defines a way to add quizzes on to the quizzes available.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesCreateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class QuizzesCreateView(CreateView):\n    \"\"\"Defines a way to add quizzes on to the quizzes available.\"\"\"\n    template_name = 'courses/quizzes_create.html'\n    form_class = QuizzesCreateForm\n    context_object_name = 'quiz'\n    def get_context_data(self, **kwargs):\n        context =  super().get_context_data(**kwargs)\n        lesson_id = self.object.lesson.id\n        context['lesson_id'] = lesson_id\n        return context",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class QuizzesUpdateView(UpdateView):\n    \"\"\"Defines a way to update quizzes.\"\"\"\n    template_name = 'courses/quizzes_update.html'\n    form_class = QuizzesCreateForm\n    queryset = Quizzes.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('quizzes-list')\nclass QuizzesDeleteView(DeleteView):\n    \"\"\"Defines a way to delete quizzes.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class QuizzesDeleteView(DeleteView):\n    \"\"\"Defines a way to delete quizzes.\"\"\"\n    template_name = 'courses/quizzes_delete.html'\n    context_object_name = 'quiz'\n    queryset = Quizzes.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the quizzes.\"\"\"\n        context =  super().get_context_data(**kwargs)\n        lesson_id = self.object.lesson.id\n        context['lesson_id'] = lesson_id",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesListView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class QuizzesListView(ListView):\n    \"\"\"List all quizzes in the platform.\"\"\"\n    template_name = 'courses/quizzes_list.html'\n    model = Quizzes\n    context_object_name = 'quizzes'\n    def get_queryset(self):\n         return Quizzes.objects.order_by( 'lesson') \n    def get_context_data(self, **kwargs): \n        \"\"\"Get the context data for the quizzes.\"\"\" \n        context = super().get_context_data(**kwargs)",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "QuizzesDetailView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class QuizzesDetailView(DetailView):\n    \"\"\"Defines a detailed view for a quiz.\"\"\"\n    template_name = 'courses/quizzes_detail.html'\n    context_object_name = 'quiz'\n    queryset = Quizzes.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the quiz.\"\"\"\n        context = super().get_context_data(**kwargs)\n        quiz = self.get_object()\n        context['is_list'] = isinstance(quiz, list)",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseEnrollmentView(CreateView):\n    \"\"\"Defines a way to enroll in a course.\"\"\"\n    template_name = 'courses/course_enrollment.html'\n    form_class = CourseEnrollmentForm\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass CourseEnrollmentUpdateView(UpdateView):\n    \"\"\"Defines a way to update course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_update.html'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentUpdateView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseEnrollmentUpdateView(UpdateView):\n    \"\"\"Defines a way to update course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_update.html'\n    form_class = CourseEnrollmentForm\n    queryset = CourseEnrollment.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass CourseEnrollmentDeleteView(DeleteView):\n    \"\"\"Defines a way to delete course enrollment.\"\"\"",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentDeleteView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseEnrollmentDeleteView(DeleteView):\n    \"\"\"Defines a way to delete course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_delete.html'\n    queryset = CourseEnrollment.objects.all()\n    def get_success_url(self):\n        \"\"\"Redirect to the course list.\"\"\"\n        return  reverse('course-list')\nclass CourseEnrollmentListView(ListView):\n    \"\"\"List all course enrollments in the platform.\"\"\"\n    template_name = 'courses/course_enrollment_list.html'",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentListView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseEnrollmentListView(ListView):\n    \"\"\"List all course enrollments in the platform.\"\"\"\n    template_name = 'courses/course_enrollment_list.html'\n    model = CourseEnrollment\n    context_object_name = 'enrollment'\nclass CourseEnrollmentDetailView(DetailView):\n    \"\"\"Defines a detailed view for a course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_detail.html'\n    context_object_name = 'enrollment'\n    queryset = CourseEnrollment.objects.all()",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "CourseEnrollmentDetailView",
+        "kind": 6,
+        "importPath": "courses.views",
+        "description": "courses.views",
+        "peekOfCode": "class CourseEnrollmentDetailView(DetailView):\n    \"\"\"Defines a detailed view for a course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_detail.html'\n    context_object_name = 'enrollment'\n    queryset = CourseEnrollment.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the course enrollment.\"\"\"\n        context = super().get_context_data(**kwargs)\n        course_id = self.kwargs.get('pk') \n        context['student'] = CourseEnrollment.objects.filter(course_id=course_id) ",
+        "detail": "courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorConfig",
+        "kind": 6,
+        "importPath": "instructor.apps",
+        "description": "instructor.apps",
+        "peekOfCode": "class InstructorConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'instructor'",
+        "detail": "instructor.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ResourcesConfig",
+        "kind": 6,
+        "importPath": "resources.apps",
+        "description": "resources.apps",
+        "peekOfCode": "class ResourcesConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'resources'",
+        "detail": "resources.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "student.migrations.0001_initial",
+        "description": "student.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "student.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "StudentConfig",
+        "kind": 6,
+        "importPath": "student.apps",
+        "description": "student.apps",
+        "peekOfCode": "class StudentConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'student'",
+        "detail": "student.apps",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUserForm",
+        "kind": 6,
+        "importPath": "student.forms",
+        "description": "student.forms",
+        "peekOfCode": "class StudentUserForm(ModelForm):\n    \"\"\"Form for the StudentUser model\"\"\"\n    class Meta:\n        model = StudentUser\n        fields = ['first_name', 'last_name', 'email', 'phone', 'instructor']",
+        "detail": "student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "student.models",
+        "description": "student.models",
+        "peekOfCode": "class User(AbstractUser):\n    # is_student = models.BooleanField(default=False)\n    # is_instructor = models.BooleanField(default=False)\n    pass\nclass StudentUser(models.Model):\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)\n    email = models.EmailField()\n    phone = models.CharField(max_length=15)\n    instructor = models.ForeignKey('InstructorUser', on_delete=models.CASCADE, null=True, blank=True)",
+        "detail": "student.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUser",
+        "kind": 6,
+        "importPath": "student.models",
+        "description": "student.models",
+        "peekOfCode": "class StudentUser(models.Model):\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)\n    email = models.EmailField()\n    phone = models.CharField(max_length=15)\n    instructor = models.ForeignKey('InstructorUser', on_delete=models.CASCADE, null=True, blank=True)\n    def __str__(self):\n        return self.first_name + ' ' + self.last_name\nclass InstructorUser(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)",
+        "detail": "student.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstructorUser",
+        "kind": 6,
+        "importPath": "student.models",
+        "description": "student.models",
+        "peekOfCode": "class InstructorUser(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    # organization = models.CharField(m)\n    def __str__(self):\n        return self.user.username",
+        "detail": "student.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "student.urls",
+        "description": "student.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', StudentListView.as_view(), name='student-list'),\n    path('create/', StudentCreateView.as_view(), name='student-create'),\n    path('update/<int:pk>/', StudentUpdateView.as_view(), name='student-update'),\n    path('delete/<int:pk>/', StudentDeleteView.as_view(), name='student-delete'),\n    path('detail/<int:pk>/', StudentDetailView.as_view(), name='student-detail'),\n]",
+        "detail": "student.urls",
+        "documentation": {}
+    },
+    {
+        "label": "StudentListView",
+        "kind": 6,
+        "importPath": "student.views",
+        "description": "student.views",
+        "peekOfCode": "class StudentListView(ListView):\n    \"\"\"View for the list of students\"\"\"\n    template_name = 'students/student_list.html'\n    context_object_name = 'students'\n    queryset = StudentUser.objects.all()\nclass StudentCreateView(CreateView):\n    \"\"\"View for creating a new student\"\"\"\n    template_name = 'students/create_student.html'\n    form_class = StudentUserForm\n    def get_success_url(self):",
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreateView",
+        "kind": 6,
+        "importPath": "student.views",
+        "description": "student.views",
+        "peekOfCode": "class StudentCreateView(CreateView):\n    \"\"\"View for creating a new student\"\"\"\n    template_name = 'students/create_student.html'\n    form_class = StudentUserForm\n    def get_success_url(self):\n        return reverse('student-list')\nclass StudentUpdateView(UpdateView):\n    \"\"\"View for updating a student\"\"\"\n    template_name = 'students/update_student.html'\n    form_class = StudentUserForm",
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
+        "label": "StudentUpdateView",
+        "kind": 6,
+        "importPath": "student.views",
+        "description": "student.views",
+        "peekOfCode": "class StudentUpdateView(UpdateView):\n    \"\"\"View for updating a student\"\"\"\n    template_name = 'students/update_student.html'\n    form_class = StudentUserForm\n    queryset = StudentUser.objects.all()\n    def get_success_url(self):\n        return reverse('student-list')\nclass StudentDeleteView(DeleteView):\n    \"\"\"View for deleting a student\"\"\"\n    template_name = 'students/delete_student.html'",
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDeleteView",
+        "kind": 6,
+        "importPath": "student.views",
+        "description": "student.views",
+        "peekOfCode": "class StudentDeleteView(DeleteView):\n    \"\"\"View for deleting a student\"\"\"\n    template_name = 'students/delete_student.html'\n    queryset = StudentUser.objects.all()\n    def get_success_url(self):\n        return reverse('student-list')\nclass StudentDetailView(DetailView):\n    \"\"\"View for viewing a student\"\"\"\n    template_name = 'students/student_detail.html'\n    queryset = StudentUser.objects.all()",
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetailView",
+        "kind": 6,
+        "importPath": "student.views",
+        "description": "student.views",
+        "peekOfCode": "class StudentDetailView(DetailView):\n    \"\"\"View for viewing a student\"\"\"\n    template_name = 'students/student_detail.html'\n    queryset = StudentUser.objects.all()\n    context_object_name = 'student'",
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'colearn.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

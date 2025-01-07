@@ -53,7 +53,7 @@ class Lessons(models.Model):
     """Model for the lessons in the course."""
     module = models.ForeignKey(Modules, on_delete=models.CASCADE)
     title = models.CharField(max_length=120)
-    content = CKEditor5Field(config_name='default')
+    content = CKEditor5Field('Content', config_name='extends')
     video_url = models.URLField(null=True, blank=True, max_length=200)
     duration = models.DurationField(null=True, blank=True, help_text='Duration of the video eg 00:10:00 for 10 minutes')
     order = models.PositiveIntegerField(default=0)

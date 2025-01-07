@@ -13,7 +13,7 @@
     <div class="text-center mb-12">
       <h1 class="text-5xl font-extrabold text-gray-900">{{ course.title }}</h1>
       <p class="mt-4 text-lg text-gray-600">{{ course.description }}</p>
-      <a href="{% url 'module-create' %}" class="mt-6 bg-green-600 text-white px-3 py-3 rounded-lg shadow-md hover:bg-green-700">Create Modules</a>
+      <a href="{% url 'module-create' course.id %}" class="mt-6 bg-green-600 text-white px-3 py-3 rounded-lg shadow-md hover:bg-green-700">Create Modules</a>
       <button class="mt-6 bg-indigo-600 text-white px-9 py-3 rounded-lg shadow-md hover:bg-indigo-700">Start Course</button>
     </div>
 

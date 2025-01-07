@@ -86,19 +86,33 @@ class ModuleCreateView(CreateView):
     form_class = ModulesCreateForm
     context_object_name = 'module'
 
-
+    def get_context_data(self, **kwargs):
+        context =  super().get_context_data(**kwargs)
+        course_id = self.kwargs.get('course_id')
+        context['course_id'] = course_id
+        return context
+    
     def get_success_url(self):
         return reverse('module-detail', kwargs={'pk':self.object.id})
-
 class LessonCreateView(CreateView):
-    """Defines a way to add lessons on to the lessons available."""
     template_name = 'courses/lesson_create.html'
     form_class = LessonsCreateForm
+    context_object_name = 'lesson'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        module_id = self.kwargs.get('module_id')
+        print(f"Debug - Module ID: {module_id}")  # Debug line
+        context['module_id'] = module_id
+        return context
+
+    def form_valid(self, form):
+        module_id = self.kwargs.get('module_id')
+        form.instance.module = Modules.objects.get(id=module_id)
+        return super().form_valid(form)
 
     def get_success_url(self):
-        """Redirect to the course list."""
-        return  reverse('lesson-list')
-
+        return reverse('module-detail', kwargs={'pk': self.object.module.id})
 
 class CourseUpdateView(UpdateView):
     """Defines a way to update courses."""
