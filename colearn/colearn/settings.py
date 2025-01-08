@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'student',
     'courses',
     'instructor',
+    'resources',
     "django_ckeditor_5",
     "crispy_forms",
     "crispy_tailwind",
@@ -140,7 +141,7 @@ STATICFILES_DIRS = [BASE_DIR /"colearn" /"static"]
 AUTH_USER_MODEL = 'student.User'
 
 
-LOGIN_REDIRECT_URL = 'student-list'
+LOGIN_REDIRECT_URL = 'course-list'
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 
@@ -241,7 +242,7 @@ CKEDITOR_5_FILE_UPLOAD_PERMISSION = "any"
 # settings.py
 
 # Email backend configuration for local development
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # If you want to test with an actual email service, you can use the following configuration:
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -251,5 +252,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_HOST_USER = 'your-email@example.com'
 # EMAIL_HOST_PASSWORD = 'your-email-password'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 DEFAULT_FROM_EMAIL = 'webmaster@localhost'
 EMAIL_SUBJECT_PREFIX = '[CoLearn]'
+

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Resources</h2>
+
+    <!-- Search and Filter Form -->
+    <form method="GET" class="flex gap-4 mb-6">
+      <input type="text" name="q" placeholder="Search by title" value="{{ request.GET.q }}" class="px-4 py-2 border rounded-md">
+      <select name="tag" class="px-4 py-2 border rounded-md">
+        <option value="">Select a tag</option>
+        {% for tag in tags %}
+          <option value="{{ tag.name }}" {% if request.GET.tag == tag.name %}selected{% endif %}>{{ tag.name }}</option>
+        {% endfor %}
+      </select>
+      <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Search</button>
+    </form>
+
+    <!-- List of Resources -->
+    <div class="space-y-4">
+      {% for resource in resources %}
+        <div class="p-4 border-b border-gray-300">
+          <h3 class="text-xl font-semibold text-gray-800">
+            <a href="{% url 'resource_detail' resource.pk %}" class="hover:text-indigo-600">{{ resource.title }}</a>
+          </h3>
+          <p class="text-gray-600 mb-2">{{ resource.description|truncatewords:20 }}</p>
+
+          <div class="flex gap-2 mb-2">
+            {% for tag in resource.tags.all %}
+              <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">{{ tag.name }}</span>
+            {% endfor %}
+          </div>
+
+          <p class="text-gray-600 text-sm">Uploaded by: {{ resource.uploaded_by.username }} on {{ resource.created_at|date:"F j, Y" }}</p>
+        </div>
+      {% empty %}
+        <p class="text-gray-600">No resources found.</p>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="mt-6">
+      {% if resources.has_previous %}
+        <a href="?page=1&q={{ request.GET.q }}&tag={{ request.GET.tag }}" class="text-indigo-600 hover:text-indigo-800">First</a>
+        <a href="?page={{ resources.previous_page_number }}&q={{ request.GET.q }}&tag={{ request.GET.tag }}" class="text-indigo-600 hover:text-indigo-800">Previous</a>
+      {% endif %}
+
+      <span class="mx-2 text-gray-600">Page {{ resources.number }} of {{ resources.paginator.num_pages }}</span>
+
+      {% if resources.has_next %}
+        <a href="?page={{ resources.next_page_number }}&q={{ request.GET.q }}&tag={{ request.GET.tag }}" class="text-indigo-600 hover:text-indigo-800">Next</a>
+        <a href="?page={{ resources.paginator.num_pages }}&q={{ request.GET.q }}&tag={{ request.GET.tag }}" class="text-indigo-600 hover:text-indigo-800">Last</a>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

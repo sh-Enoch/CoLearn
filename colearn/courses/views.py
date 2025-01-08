@@ -4,22 +4,22 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import Course, Modules, Lessons, Quizzes, CourseEnrollment
 from .forms import CourseCreateForm, LessonsCreateForm, ModulesCreateForm, QuizzesCreateForm, CourseEnrollmentForm
 from django.shortcuts import redirect, reverse
+from django.contrib.auth.mixins import LoginRequiredMixin   
 
 
-
-class CourseListView(ListView):
+class CourseListView(LoginRequiredMixin, ListView):
     """List all courses in the platform."""
     template_name = 'courses/course_list.html'
     model = Course
     context_object_name = 'courses'
 
-class ModuleListView(ListView):
+class ModuleListView(LoginRequiredMixin, ListView):
     """List all modules in the platform."""
     template_name = 'courses/module_list.html'
     model = Modules
     context_object_name = 'modules'
 
-class LessonListView(ListView):
+class LessonListView(LoginRequiredMixin, ListView):
     """List all lessons in the platform."""
     template_name = 'courses/lesson_list.html'
     model = Lessons
@@ -27,7 +27,7 @@ class LessonListView(ListView):
 
 
 
-class CourseDetailView(DetailView):
+class CourseDetailView(LoginRequiredMixin, DetailView):
     """Defines a detailed view for a course."""
     template_name = 'courses/course_detail.html'
     context_object_name = 'course'
@@ -42,7 +42,7 @@ class CourseDetailView(DetailView):
 
     
 
-class ModuleDetailView(DetailView):
+class ModuleDetailView(LoginRequiredMixin, DetailView):
     """Defines a detailed view for a module."""
     template_name = 'courses/module_detail.html'
     context_object_name = 'module'
@@ -55,7 +55,7 @@ class ModuleDetailView(DetailView):
         context['lesson'] = Lessons.objects.filter(module_id=module_id)
         return context
 
-class LessonDetailView(DetailView):
+class LessonDetailView(LoginRequiredMixin, DetailView):
     """Defines a detailed view for a lesson."""
     template_name = 'courses/lesson_detail.html'
     context_object_name = 'lesson'
@@ -70,7 +70,7 @@ class LessonDetailView(DetailView):
 
 
 
-class CourseCreateView(CreateView):
+class CourseCreateView(LoginRequiredMixin, CreateView):
     """Defines a way to add courses on to the courses available."""
     template_name = 'courses/course_create.html'
     form_class = CourseCreateForm
@@ -80,7 +80,7 @@ class CourseCreateView(CreateView):
         return  reverse('course-list')
     
 
-class ModuleCreateView(CreateView):
+class ModuleCreateView(LoginRequiredMixin, CreateView):
     """Defines a way to add modules on to the modules available."""
     template_name = 'courses/module_create.html'
     form_class = ModulesCreateForm
@@ -94,7 +94,7 @@ class ModuleCreateView(CreateView):
     
     def get_success_url(self):
         return reverse('module-detail', kwargs={'pk':self.object.id})
-class LessonCreateView(CreateView):
+class LessonCreateView(LoginRequiredMixin, CreateView):
     template_name = 'courses/lesson_create.html'
     form_class = LessonsCreateForm
     context_object_name = 'lesson'
@@ -114,7 +114,7 @@ class LessonCreateView(CreateView):
     def get_success_url(self):
         return reverse('module-detail', kwargs={'pk': self.object.module.id})
 
-class CourseUpdateView(UpdateView):
+class CourseUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update courses."""
     template_name = 'courses/course_update.html'
     form_class = CourseCreateForm
@@ -125,7 +125,7 @@ class CourseUpdateView(UpdateView):
         return  reverse('course-list')
     
 
-class ModuleUpdateView(UpdateView):
+class ModuleUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update modules."""
     template_name = 'courses/module_update.html'
     form_class = CourseCreateForm
@@ -136,7 +136,7 @@ class ModuleUpdateView(UpdateView):
         return  reverse('module-list')
     
 
-class LessonUpdateView(UpdateView):
+class LessonUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update lessons."""
     template_name = 'courses/lesson_update.html'
     form_class = CourseCreateForm
@@ -147,7 +147,7 @@ class LessonUpdateView(UpdateView):
         return  reverse('lesson-list')
     
 
-class CourseDeleteView(DeleteView):
+class CourseDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete courses."""
     template_name = 'courses/course_delete.html'
     queryset = Course.objects.all()
@@ -156,7 +156,7 @@ class CourseDeleteView(DeleteView):
         """Redirect to the course list."""
         return  reverse('course-list')
 
-class ModuleDeleteView(DeleteView):
+class ModuleDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete modules."""
     template_name = 'courses/module_delete.html'
     context_object_name = 'module'
@@ -178,7 +178,7 @@ class ModuleDeleteView(DeleteView):
         """Redirect to the module list."""
         return reverse('module-list')
 
-class LessonDeleteView(DeleteView):
+class LessonDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete lessons."""
     template_name = 'courses/lesson_delete.html'
     queryset = Lessons.objects.all()
@@ -189,7 +189,7 @@ class LessonDeleteView(DeleteView):
 
 
 
-class CourseUpdateView(UpdateView):
+class CourseUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update courses."""
     template_name = 'courses/course_update.html'
     form_class = CourseCreateForm
@@ -200,7 +200,7 @@ class CourseUpdateView(UpdateView):
         return  reverse('course-list')
     
 
-class CourseDeleteView(DeleteView):
+class CourseDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete courses."""
     template_name = 'courses/course_delete.html'
     queryset = Course.objects.all()
@@ -212,7 +212,7 @@ class CourseDeleteView(DeleteView):
 
 
 """Handle Read create update and delete operations for the quizzes"""
-class QuizzesCreateView(CreateView):
+class QuizzesCreateView(LoginRequiredMixin, CreateView):
     """Defines a way to add quizzes on to the quizzes available."""
     template_name = 'courses/quizzes_create.html'
     form_class = QuizzesCreateForm
@@ -231,7 +231,7 @@ class QuizzesCreateView(CreateView):
         return  reverse('lesson-detail', kwargs={'pk':self.object.lesson.id})
     
 
-class QuizzesUpdateView(UpdateView):
+class QuizzesUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update quizzes."""
     template_name = 'courses/quizzes_update.html'
     form_class = QuizzesCreateForm
@@ -242,7 +242,7 @@ class QuizzesUpdateView(UpdateView):
         return  reverse('quizzes-list')
     
 
-class QuizzesDeleteView(DeleteView):
+class QuizzesDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete quizzes."""
     template_name = 'courses/quizzes_delete.html'
     context_object_name = 'quiz'
@@ -264,7 +264,7 @@ class QuizzesDeleteView(DeleteView):
         return  reverse('lesson-detail', kwargs={'pk': self.object.lesson.id})
     
 
-class QuizzesListView(ListView):
+class QuizzesListView(LoginRequiredMixin, ListView):
     """List all quizzes in the platform."""
     template_name = 'courses/quizzes_list.html'
     model = Quizzes
@@ -281,7 +281,7 @@ class QuizzesListView(ListView):
         return context
 
 
-class QuizzesDetailView(DetailView):
+class QuizzesDetailView(LoginRequiredMixin, DetailView):
     """Defines a detailed view for a quiz."""
     template_name = 'courses/quizzes_detail.html'
     context_object_name = 'quiz'
@@ -297,7 +297,7 @@ class QuizzesDetailView(DetailView):
         return context
     
 
-class CourseEnrollmentView(CreateView):
+class CourseEnrollmentView(LoginRequiredMixin, CreateView):
     """Defines a way to enroll in a course."""
     template_name = 'courses/course_enrollment.html'
     form_class = CourseEnrollmentForm
@@ -307,7 +307,7 @@ class CourseEnrollmentView(CreateView):
         return  reverse('course-list')
     
 
-class CourseEnrollmentUpdateView(UpdateView):
+class CourseEnrollmentUpdateView(LoginRequiredMixin, UpdateView):
     """Defines a way to update course enrollment."""
     template_name = 'courses/course_enrollment_update.html'
     form_class = CourseEnrollmentForm
@@ -318,7 +318,7 @@ class CourseEnrollmentUpdateView(UpdateView):
         return  reverse('course-list')
     
 
-class CourseEnrollmentDeleteView(DeleteView):
+class CourseEnrollmentDeleteView(LoginRequiredMixin, DeleteView):
     """Defines a way to delete course enrollment."""
     template_name = 'courses/course_enrollment_delete.html'
     queryset = CourseEnrollment.objects.all()
@@ -329,14 +329,14 @@ class CourseEnrollmentDeleteView(DeleteView):
         return  reverse('course-list')
     
 
-class CourseEnrollmentListView(ListView):
+class CourseEnrollmentListView(LoginRequiredMixin, ListView):
     """List all course enrollments in the platform."""
     template_name = 'courses/course_enrollment_list.html'
     model = CourseEnrollment
     context_object_name = 'enrollment'
 
 
-class CourseEnrollmentDetailView(DetailView):
+class CourseEnrollmentDetailView(LoginRequiredMixin, DetailView):
     """Defines a detailed view for a course enrollment."""
     template_name = 'courses/course_enrollment_detail.html'
     context_object_name = 'enrollment'
@@ -348,5 +348,3 @@ class CourseEnrollmentDetailView(DetailView):
         course_id = self.kwargs.get('pk') 
         context['student'] = CourseEnrollment.objects.filter(course_id=course_id) 
         return context
-
-
