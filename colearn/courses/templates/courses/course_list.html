@@ -15,9 +15,11 @@
       <a href="" class="bg-white text-blue-600 font-medium rounded-lg py-3 px-8 shadow-md hover:bg-gray-100 hover:shadow-lg transition duration-200">
         My Courses
       </a>
+      {% if request.user.is_instructor %}
       <a href="{% url 'course-create' %}" class="bg-green-600 text-white font-medium rounded-lg py-3 px-8 shadow-md hover:bg-green-700 transition duration-200">
         Create Course
       </a>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -30,8 +32,10 @@
     </h2>
 
     <!-- Grid container -->
-    <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-      {% for course in courses %}
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 max-w-screen-xl mx-auto px-4 py-6">
+ 
+
+   {% for course in courses %}
       <!-- Course Card -->
       <div class="bg-white px-6 pt-10 pb-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
         <div class="mb-6 flex justify-center">
@@ -42,7 +46,7 @@
         <h2 class="text-lg font-semibold text-gray-700 mb-2">{{ course.title }}</h2>
         <h1 class="text-xl font-bold text-gray-900 mb-4">{{ course.short_title }}</h1>
         <p class="leading-relaxed text-gray-600 mb-6">
-          {{ course.description|truncatewords:20 }}
+          {{ course.description|truncatewords:7 }}
         </p>
         <a href="{% url 'course-detail' course.pk %}" class="text-blue-600 font-medium hover:underline inline-flex items-center">
           Learn More

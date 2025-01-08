@@ -13,7 +13,9 @@
     <div class="text-center mb-12">
       <h1 class="text-5xl font-extrabold text-gray-900">{{ course.title }}</h1>
       <p class="mt-4 text-lg text-gray-600">{{ course.description }}</p>
+      {% if request.user.is_instructor %}
       <a href="{% url 'module-create' course.id %}" class="mt-6 bg-green-600 text-white px-3 py-3 rounded-lg shadow-md hover:bg-green-700">Create Modules</a>
+      {% endif %}
       <button class="mt-6 bg-indigo-600 text-white px-9 py-3 rounded-lg shadow-md hover:bg-indigo-700">Start Course</button>
     </div>
 
@@ -34,16 +36,18 @@
             View Module
           </a>
         </div>
+        {% if request.user.is_instructor %}
         <div class="absolute bottom-6 left-6">
           <a href="{% url 'module-delete' module.id %}" class="text-red-600 font-semibold hover:underline">
             Delete Module
           </a>
         </div>
-            </div>
-            {% empty %}
-            <p class="text-center text-gray-600">No modules available for this course.</p>
-            {% endfor %}
-          </div>
-        </div>
-      </section>
-      {% endblock %}
+        {% endif %}
+      </div>
+      {% empty %}
+      <p class="text-center text-gray-600">No modules available for this course.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

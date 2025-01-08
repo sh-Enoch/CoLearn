@@ -19,16 +19,26 @@
     </p>
 
     <div class="bg-blue-100 p-6 rounded-lg shadow-md mb-6">
+        
+        {% if request.user.is_instructor %}
         <h2 class="text-2xl font-bold mb-2">Welcome to the Lesson Management Page</h2>
         <p class="text-gray-700 mb-4">This page allows you to manage lessons for your module. Below you'll find options to add new lessons and update or delete existing ones. Ensure all information is up-to-date to provide the best learning experience for your students.</p>
+        {% else %}
+        <h2 class="text-2xl font-bold mb-4">Lessons</h2>
+        <p>
+
+        </p>
+        <p class="text-gray-700 mb-4">This page allows you to view lessons for this module. Below you'll find a list of lessons available for this module. Click on a lesson to view its contents and resources.</p>
+        {% endif %}
     </div>
     
-    <h2 class="text-2xl font-semibold mb-4">Lessons</h2>
+    
 
+    {% if request.user.is_instructor %}
     <div class="flex justify-end mb-4">
         <a href="{% url 'lesson-create' module.id %}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition ease-in-out duration-200">Add Lesson</a>
     </div>
-
+    {% endif %}
     <hr class="my-4">
 
     <ul class="space-y-4">
@@ -37,10 +47,12 @@
                 <a href="{% url 'lesson-detail' lesson.pk %}" class="block text-xl font-semibold text-gray-800 hover:text-blue-500 transition-colors duration-200">
                     {{ lesson.title | safe }}
                 </a>
+                {% if request.user.is_instructor %}
                 <div class="mt-4 flex space-x-4">
                     <a href="{% url 'lesson-update' lesson.id %}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition ease-in-out duration-200">Update</a>
                     <a href="{% url 'lesson-delete' lesson.id %}" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition ease-in-out duration-200">Delete</a>
                 </div>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
