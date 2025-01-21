@@ -60,4 +60,3 @@ Welcome to CoLearn! CoLearn is a collaborative learning platform designed to con
 ## Installation To get started with CoLearn, follow these steps:
 
  1. **Clone the repository:** git clone https://github.com/sh-Enoch/CoLearn.git 
- cd CoLearn

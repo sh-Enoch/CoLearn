@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_tailwind",
     'widget_tweaks',
+
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
@@ -235,6 +236,9 @@ CKEDITOR_5_CONFIGS = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT =[BASE_DIR /'colearn' /'media']
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'colearn' / 'static']
 
 
 CKEDITOR_5_FILE_UPLOAD_PERMISSION = "any"

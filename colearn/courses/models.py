@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.exceptions import ValidationError
 from django_ckeditor_5.fields import CKEditor5Field
+from resources.models import Tag
 
 
 class Course(models.Model):
