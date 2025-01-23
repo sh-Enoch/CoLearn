@@ -2,7 +2,7 @@
 <header class="flex items-center justify-between bg-gray-800 h-20 px-8 text-white sticky top-0 z-40">
     <div>
         <a class="flex items-center gap-2" href="/">
-            <img class="h-6" src="/static/images/logo.svg" alt="Logo"/>
+            <img class="h-6" src="{% static 'images/logo.svg' %}" alt="Logo"/>
             <span class="text-lg font-bold">CoLearn</span>
         </a>
     </div>
@@ -13,7 +13,6 @@
             <li><a href="{% url 'course-list' %}">Courses</a></li>
             <li><a href="">Resources</a></li>
             
-
             <li x-data="{ dropdownOpen: false }" class="relative">
                 <a @click="dropdownOpen = !dropdownOpen" @click.away="dropdownOpen = false" class="cursor-pointer select-none">
                     <img class="h-8 w-8 rounded-full object-cover" src="{{ user.profile.avatar }}"/>
@@ -26,10 +25,10 @@
                 x-transition:enter-end="opacity-100 translate-y-0 scale-100"
                 >
                     <ul class="hoverlist [&>li>a]:justify-end">
-                        <li><a href="">My Profile</a></li>
-                        <li><a href="">Edit Profile</a></li>
-                        <li><a href="">Settings</a></li>
-                        <li><a href="">Log Out</a></li>
+                        <li><a href="{% url 'profile' %}">My Profile</a></li>
+                        <li><a href="{% url 'profile-edit' %}">Edit Profile</a></li>
+                        <li><a href="{% url 'profile-settings' %}">Settings</a></li>
+                        <li><a href="{% url 'account_logout' %}">Log Out</a></li>
                     </ul>
                 </div>
             </li>

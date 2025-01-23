@@ -56,6 +56,14 @@
         "documentation": {}
     },
     {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -449,6 +457,22 @@
     },
     {
         "label": "reverse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -809,6 +833,14 @@
         "documentation": {}
     },
     {
+        "label": "student_profile",
+        "importPath": "student.views",
+        "description": "student.views",
+        "isExtraImport": true,
+        "detail": "student.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -840,6 +872,14 @@
         "description": "django_ckeditor_5.fields",
         "isExtraImport": true,
         "detail": "django_ckeditor_5.fields",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -932,7 +972,23 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
         "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
@@ -990,6 +1046,46 @@
         "documentation": {}
     },
     {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "EmailAddress",
+        "importPath": "allauth.account.models",
+        "description": "allauth.account.models",
+        "isExtraImport": true,
+        "detail": "allauth.account.models",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_confirmation",
+        "importPath": "allauth.account.utils",
+        "description": "allauth.account.utils",
+        "isExtraImport": true,
+        "detail": "allauth.account.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -1039,7 +1135,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost' ,'127.0.0.1', '*']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1048,7 +1144,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost' ,'127.0.0.1', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1057,7 +1153,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['localhost' ,'127.0.0.1', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django_cleanup.apps.CleanupConfig',",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1066,7 +1162,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core',",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost' ,'127.0.0.1', '*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django_cleanup.apps.CleanupConfig',\n    'django.contrib.staticfiles',",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1075,7 +1171,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core',\n    'student',\n    'courses',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django_cleanup.apps.CleanupConfig',\n    'django.contrib.staticfiles',\n    'allauth',\n    'allauth.account',",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1093,7 +1189,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"tailwind\"\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"tailwind\"\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'allauth.account.middleware.AccountMiddleware',",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1102,7 +1198,16 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'colearn.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'allauth.account.middleware.AccountMiddleware',\n    'django_htmx.middleware.HtmxMiddleware',",
+        "detail": "colearn.colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "colearn.colearn.settings",
+        "description": "colearn.colearn.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',\n    'allauth.account.auth_backends.AuthenticationBackend',\n]\nROOT_URLCONF = 'colearn.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1273,7 +1378,16 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT =[BASE_DIR /'colearn' /'media']\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'colearn' / 'static']\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR /  'static',]\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\nLOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:",
+        "detail": "colearn.colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "colearn.colearn.settings",
+        "description": "colearn.colearn.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR /  'static',]\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\nLOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1282,7 +1396,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'colearn' / 'static']\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR /  'static',]\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\nLOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1291,7 +1405,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'colearn' / 'static']\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR /  'static',]\nCKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\nLOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1300,7 +1414,16 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "CKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True\n# EMAIL_HOST_USER = 'your-email@example.com'",
+        "peekOfCode": "CKEDITOR_5_FILE_UPLOAD_PERMISSION = \"any\"\nLOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True",
+        "detail": "colearn.colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "colearn.colearn.settings",
+        "description": "colearn.colearn.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\n# settings.py\n# Email backend configuration for local development\n# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# If you want to test with an actual email service, you can use the following configuration:\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.example.com'  # Your SMTP server\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True\n# EMAIL_HOST_USER = 'your-email@example.com'",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1309,7 +1432,25 @@
         "kind": 5,
         "importPath": "colearn.colearn.settings",
         "description": "colearn.colearn.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nDEFAULT_FROM_EMAIL = 'webmaster@localhost'\nEMAIL_SUBJECT_PREFIX = '[CoLearn]'",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nDEFAULT_FROM_EMAIL = 'webmaster@localhost'\nEMAIL_SUBJECT_PREFIX = '[CoLearn]'",
+        "detail": "colearn.colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_AUTHENTICATION_METHOD",
+        "kind": 5,
+        "importPath": "colearn.colearn.settings",
+        "description": "colearn.colearn.settings",
+        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nDEFAULT_FROM_EMAIL = 'webmaster@localhost'\nEMAIL_SUBJECT_PREFIX = '[CoLearn]'",
+        "detail": "colearn.colearn.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_REQUIRED",
+        "kind": 5,
+        "importPath": "colearn.colearn.settings",
+        "description": "colearn.colearn.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nDEFAULT_FROM_EMAIL = 'webmaster@localhost'\nEMAIL_SUBJECT_PREFIX = '[CoLearn]'",
         "detail": "colearn.colearn.settings",
         "documentation": {}
     },
@@ -1336,7 +1477,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.urls",
         "description": "colearn.colearn.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('student/', include('student.urls')),\n    path('courses/', include('courses.urls')),\n    path('resources/', include('resources.urls')),\n]\nurlpatterns += [\n    path(\"ckeditor5/\", include('django_ckeditor_5.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('student/', include('student.urls')),\n    path('courses/', include('courses.urls')),\n    path('profile/', include('student.urls')),\n    path('accounts/', include('allauth.urls')),\n    path('@<username>/', student_profile, name='profile'),\n]\nurlpatterns += [",
         "detail": "colearn.colearn.urls",
         "documentation": {}
     },
@@ -2029,7 +2170,25 @@
         "kind": 6,
         "importPath": "colearn.student.forms",
         "description": "colearn.student.forms",
-        "peekOfCode": "class StudentUserForm(ModelForm):\n    \"\"\"Form for the StudentUser model\"\"\"\n    class Meta:\n        model = StudentUser\n        fields = ['first_name', 'last_name', 'email', 'phone', 'instructor']",
+        "peekOfCode": "class StudentUserForm(ModelForm):\n    \"\"\"Form for the StudentUser model\"\"\"\n    class Meta:\n        model = StudentUser\n        fields = ['first_name', 'last_name', 'email', 'phone', 'instructor']\nclass ProfileForm(ModelForm):\n   class Meta:\n        model = Profile\n        exclude = ['user']\n        widgets = {",
+        "detail": "colearn.student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileForm",
+        "kind": 6,
+        "importPath": "colearn.student.forms",
+        "description": "colearn.student.forms",
+        "peekOfCode": "class ProfileForm(ModelForm):\n   class Meta:\n        model = Profile\n        exclude = ['user']\n        widgets = {\n            'image': forms.FileInput(),\n            'displayname': forms.TextInput(attrs={'placeholder': 'Add display name'}),\n            'info': forms.Textarea(attrs={'rows':3, 'placeholder':'Add information'})\n        }\nclass EmailForm(ModelForm):",
+        "detail": "colearn.student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EmailForm",
+        "kind": 6,
+        "importPath": "colearn.student.forms",
+        "description": "colearn.student.forms",
+        "peekOfCode": "class EmailForm(ModelForm):\n    email = forms.EmailField(required=True)\n    class Meta:\n        model = User\n        fields = ['email']",
         "detail": "colearn.student.forms",
         "documentation": {}
     },
@@ -2074,7 +2233,16 @@
         "kind": 2,
         "importPath": "colearn.student.signals",
         "description": "colearn.student.signals",
-        "peekOfCode": "def create_profile(sender, instance, created, **kwargs):\n    \"\"\"Create a profile for the user when the user is created.\"\"\"\n    user = instance\n    if created:\n        print('Profile created')\n        Profile.objects.create(\n            user=user,\n            )\n    else:\n        print('Profile already exists')",
+        "peekOfCode": "def create_profile(sender, instance, created, **kwargs):\n    \"\"\"Create a profile for the user when the user is created.\"\"\"\n    user = instance\n    if created:\n        print('Profile created')\n        Profile.objects.create(\n            user=user,\n            )\n    else:\n    #update allauth emailaddress if exists",
+        "detail": "colearn.student.signals",
+        "documentation": {}
+    },
+    {
+        "label": "user_presave",
+        "kind": 2,
+        "importPath": "colearn.student.signals",
+        "description": "colearn.student.signals",
+        "peekOfCode": "def user_presave(sender, instance, **kwargs):\n    \"\"\"\"converts usename to lowercase before saving\"\"\"\n    if instance.username:\n        instance.username = instance.username.lower()",
         "detail": "colearn.student.signals",
         "documentation": {}
     },
@@ -2083,7 +2251,7 @@
         "kind": 5,
         "importPath": "colearn.student.urls",
         "description": "colearn.student.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', StudentListView.as_view(), name='student-list'),\n    path('create/', StudentCreateView.as_view(), name='student-create'),\n    path('update/<int:pk>/', StudentUpdateView.as_view(), name='student-update'),\n    path('delete/<int:pk>/', StudentDeleteView.as_view(), name='student-delete'),\n    path('detail/<int:pk>/', StudentDetailView.as_view(), name='student-detail'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('students/', StudentListView.as_view(), name='student-list'),\n    path('create/', StudentCreateView.as_view(), name='student-create'),\n    path('update/<int:pk>/', StudentUpdateView.as_view(), name='student-update'),\n    path('delete/<int:pk>/', StudentDeleteView.as_view(), name='student-delete'),\n    path('detail/<int:pk>/', StudentDetailView.as_view(), name='student-detail'),\n    path('', student_profile, name='profile'),\n    path('edit/', profile_edit_view, name='profile-edit'),\n    path('onboarding/', profile_edit_view, name='profile-onboarding'),\n    path('settings/', profile_settings_view, name='profile-settings'),",
         "detail": "colearn.student.urls",
         "documentation": {}
     },
@@ -2128,7 +2296,61 @@
         "kind": 6,
         "importPath": "colearn.student.views",
         "description": "colearn.student.views",
-        "peekOfCode": "class StudentDetailView(DetailView):\n    \"\"\"View for viewing a student\"\"\"\n    template_name = 'students/student_detail.html'\n    queryset = StudentUser.objects.all()\n    context_object_name = 'student'",
+        "peekOfCode": "class StudentDetailView(DetailView):\n    \"\"\"View for viewing a student\"\"\"\n    template_name = 'students/student_detail.html'\n    queryset = StudentUser.objects.all()\n    context_object_name = 'student'\n@login_required\ndef student_profile(request, username=None):\n    \"\"\"View for the student profile\"\"\"\n    if username:\n        profile = get_object_or_404(User, user__username=username).profile",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "student_profile",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def student_profile(request, username=None):\n    \"\"\"View for the student profile\"\"\"\n    if username:\n        profile = get_object_or_404(User, user__username=username).profile\n    else:\n        try:\n            profile = request.user.profile\n        except:\n            return redirect('account_login')\n    return render(request, 'students/profile.html', {'student': profile})",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_edit_view",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def profile_edit_view(request):\n    form = ProfileForm(instance=request.user.profile)\n    if request.method == 'POST':\n        form = ProfileForm(request.POST, request.FILES, instance=request.user.profile)\n        if form.is_valid():\n            form.save()\n            return redirect('profile')\n    if request.path == reverse('profile-onboarding'):\n        onboarding = True\n    else:",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_settings_view",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def profile_settings_view(request):\n    return render(request, 'students/profile_settings.html')\n@login_required\ndef profile_emailchange(request):\n    if request.htmx:\n        form = EmailForm(instance=request.user)\n        return render(request, 'partials/email_form.html', {'form':form})\n    if  request.method == 'POST':\n        form = EmailForm(request.POST, instance=request.user)\n        if form.is_valid():",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_emailchange",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def profile_emailchange(request):\n    if request.htmx:\n        form = EmailForm(instance=request.user)\n        return render(request, 'partials/email_form.html', {'form':form})\n    if  request.method == 'POST':\n        form = EmailForm(request.POST, instance=request.user)\n        if form.is_valid():\n            #chack if email already exists.\n            email = form.cleaned_data['email']\n            if User.objects.filter(email=email).exclude(id=request.user.id).exists():",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_emailverify",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def profile_emailverify(request):\n    \"\"\"Verify user email\"\"\"\n    send_email_confirmation(request, request.user)\n    return redirect('profile-settings')\n@login_required\ndef profile_delete_view(request):\n    \"\"\"Delete a users profile.\"\"\"\n    user = request.user\n    if request.method == \"POST\":\n        logout(request)",
+        "detail": "colearn.student.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_delete_view",
+        "kind": 2,
+        "importPath": "colearn.student.views",
+        "description": "colearn.student.views",
+        "peekOfCode": "def profile_delete_view(request):\n    \"\"\"Delete a users profile.\"\"\"\n    user = request.user\n    if request.method == \"POST\":\n        logout(request)\n        user.delete()\n        messages.success(request, \"Account deleted.\")\n        return redirect('home')\n    return render(request, 'students/profile_delete.html')",
         "detail": "colearn.student.views",
         "documentation": {}
     },

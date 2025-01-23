@@ -59,6 +59,6 @@ class Profile(models.Model):
             avatar = self.profile_pic.url
 
         except:
-            avatar = static('images/avatar.png')
+            avatar = static('images/avatar.svg')
             
         return avatar

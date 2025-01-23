@@ -19,17 +19,18 @@ from django.urls import path, include
 from django.contrib.auth.views import LoginView, LogoutView
 from django.conf.urls.static import static
 from django.conf import settings
+from student.views import student_profile
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),
     path('student/', include('student.urls')),
     path('courses/', include('courses.urls')),
-    path('resources/', include('resources.urls')),
+    path('profile/', include('student.urls')),
+    path('accounts/', include('allauth.urls')),
+    path('@<username>/', student_profile, name='profile'),
 ]
 urlpatterns += [
     path("ckeditor5/", include('django_ckeditor_5.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
-

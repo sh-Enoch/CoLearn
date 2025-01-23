@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4+5zpika2-=91!o!eww3!9g*1+9os4^p&n5$u-#g)q9ta7h6_0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost' ,'127.0.0.1', '*']
 
 
 # Application definition
@@ -36,7 +36,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django_cleanup.apps.CleanupConfig',
     'django.contrib.staticfiles',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'core',
     'student',
     'courses',
@@ -46,8 +50,12 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_tailwind",
     'widget_tweaks',
+    'django_htmx',
 
 ]
+
+#implemtent allauth authentication backends
+
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 CRISPY_TEMPLATE_PACK = "tailwind"
@@ -60,7 +68,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
+    'django_htmx.middleware.HtmxMiddleware',
 ]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
 
 ROOT_URLCONF = 'colearn.urls'
 
@@ -235,13 +251,15 @@ CKEDITOR_5_CONFIGS = {
 }
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT =[BASE_DIR /'colearn' /'media']
+MEDIA_ROOT = BASE_DIR / 'media'
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'colearn' / 'static']
+STATICFILES_DIRS = [BASE_DIR /  'static',]
 
 
 CKEDITOR_5_FILE_UPLOAD_PERMISSION = "any"
+
+LOGIN_REDIRECT_URL = '/'
 
 # settings.py
 
@@ -257,7 +275,8 @@ CKEDITOR_5_FILE_UPLOAD_PERMISSION = "any"
 # EMAIL_HOST_PASSWORD = 'your-email-password'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_REQUIRED = True
 DEFAULT_FROM_EMAIL = 'webmaster@localhost'
 EMAIL_SUBJECT_PREFIX = '[CoLearn]'
 
