@@ -32,6 +32,14 @@
         "documentation": {}
     },
     {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -417,6 +425,14 @@
     },
     {
         "label": "reverse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -947,11 +963,59 @@
         "documentation": {}
     },
     {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
         "label": "LoginRequiredMixin",
         "importPath": "django.contrib.auth.mixins",
         "description": "django.contrib.auth.mixins",
         "isExtraImport": true,
         "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
         "documentation": {}
     },
     {
@@ -1027,30 +1091,6 @@
         "description": "django.templatetags.static",
         "isExtraImport": true,
         "detail": "django.templatetags.static",
-        "documentation": {}
-    },
-    {
-        "label": "receiver",
-        "importPath": "django.dispatch",
-        "description": "django.dispatch",
-        "isExtraImport": true,
-        "detail": "django.dispatch",
-        "documentation": {}
-    },
-    {
-        "label": "post_save",
-        "importPath": "django.db.models.signals",
-        "description": "django.db.models.signals",
-        "isExtraImport": true,
-        "detail": "django.db.models.signals",
-        "documentation": {}
-    },
-    {
-        "label": "pre_save",
-        "importPath": "django.db.models.signals",
-        "description": "django.db.models.signals",
-        "isExtraImport": true,
-        "detail": "django.db.models.signals",
         "documentation": {}
     },
     {
@@ -1693,7 +1733,7 @@
         "kind": 6,
         "importPath": "colearn.courses.forms",
         "description": "colearn.courses.forms",
-        "peekOfCode": "class CourseEnrollmentForm(forms.ModelForm):\n    \"\"\"Form for enrolling in a course.\"\"\"\n    class Meta:\n        model = CourseEnrollment\n        fields = ['course', 'student', 'completed']\n        widgets = {\n            'course': forms.Select(attrs={'class': 'form-control'}),\n            'student': forms.Select(attrs={'class': 'form-control'}),\n            'completed': forms.CheckboxInput(attrs={'class': 'form-check-input'}),\n        }",
+        "peekOfCode": "class CourseEnrollmentForm(forms.ModelForm):\n    \"\"\"Form for enrolling in a course.\"\"\"\n    class Meta:\n        model = CourseEnrollment\n        fields = ['course']\nclass ResourceCreateForm(forms.ModelForm):\n    \"\"\"Form for creating a resource.\"\"\"\n    class Meta:\n        model = Resource\n        fields = ['lesson', 'title', 'description', 'resource_type', 'file', 'link']",
         "detail": "colearn.courses.forms",
         "documentation": {}
     },
@@ -1761,11 +1801,20 @@
         "documentation": {}
     },
     {
+        "label": "handle_course_enrollment",
+        "kind": 2,
+        "importPath": "colearn.courses.signals",
+        "description": "colearn.courses.signals",
+        "peekOfCode": "def handle_course_enrollment(sender, instance, created, **kwargs):\n    if created:\n        # Actions to take when a new enrollment is created\n        print(f\"{instance.student.username} enrolled in {instance.course.title}\")\n        # Example: Send a welcome email\n        # send_welcome_email(instance.student, instance.course)\n        # Update course enrollment count\n        instance.course.enrollment_count += 1\n        instance.course.save()",
+        "detail": "colearn.courses.signals",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "colearn.courses.urls",
         "description": "colearn.courses.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', CourseListView.as_view(), name='course-list'),\n    path('<int:pk>/', CourseDetailView.as_view(), name='course-detail'),\n    path('create/', CourseCreateView.as_view(), name='course-create'),\n    path('<int:pk>/update/', CourseUpdateView.as_view(), name='course-update'),\n    path('<int:pk>/delete/', CourseDeleteView.as_view(), name='course-delete'),\n    #path to view module and lesson list\n    path('module/', ModuleListView.as_view(), name='module-list'),\n    path('lesson/', LessonListView.as_view(), name='lesson-list'),\n    #detail views for modules and lessons",
+        "peekOfCode": "urlpatterns = [\n    path('', CourseListView.as_view(), name='course-list'),\n    path('course/<int:pk>/', CourseDetailView.as_view(), name='course-detail'),\n    path('create/', CourseCreateView.as_view(), name='course-create'),\n    path('<int:pk>/update/', CourseUpdateView.as_view(), name='course-update'),\n    path('<int:pk>/delete/', CourseDeleteView.as_view(), name='course-delete'),\n    #path to view module and lesson list\n    path('module/', ModuleListView.as_view(), name='module-list'),\n    path('lesson/', LessonListView.as_view(), name='lesson-list'),\n    #detail views for modules and lessons",
         "detail": "colearn.courses.urls",
         "documentation": {}
     },
@@ -2009,6 +2058,15 @@
         "importPath": "colearn.courses.views",
         "description": "colearn.courses.views",
         "peekOfCode": "class CourseEnrollmentDetailView(LoginRequiredMixin, DetailView):\n    \"\"\"Defines a detailed view for a course enrollment.\"\"\"\n    template_name = 'courses/course_enrollment_detail.html'\n    context_object_name = 'enrollment'\n    queryset = CourseEnrollment.objects.all()\n    def get_context_data(self, **kwargs):\n        \"\"\"Get the context data for the course enrollment.\"\"\"\n        context = super().get_context_data(**kwargs)\n        course_id = self.kwargs.get('pk') \n        context['student'] = CourseEnrollment.objects.filter(course_id=course_id) ",
+        "detail": "colearn.courses.views",
+        "documentation": {}
+    },
+    {
+        "label": "EnrollinCourse",
+        "kind": 6,
+        "importPath": "colearn.courses.views",
+        "description": "colearn.courses.views",
+        "peekOfCode": "class EnrollinCourse(LoginRequiredMixin, View):\n    \"\"\"Enroll in a course.\"\"\"\n    def get(self, request, *args, **kwargs):\n        \"\"\"Display the enrollment form.\"\"\"\n        course = get_object_or_404(Course, id=kwargs['pk'])\n        form = CourseEnrollmentForm(initial={'course': course})\n        return render(request, 'courses/course_enrollment.html', {'form': form})                                   \n    def post(self, request, *args, **kwargs):\n        \"\"\"Enroll in a course.\"\"\"\n        course = get_object_or_404(Course, id=kwargs['pk'])",
         "detail": "colearn.courses.views",
         "documentation": {}
     },

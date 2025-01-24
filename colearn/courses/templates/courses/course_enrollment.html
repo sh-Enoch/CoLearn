@@ -1,11 +1,13 @@
-{% extends 'base.html' %}
+{% extends 'layouts/box.html' %}
 {% block title %}Enroll in Course{% endblock %}
 {% block content %}
-<h1>Enroll in Course</h1>
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
+    {% if user.is_authenticated %}
+        <form method="post" action="{% url 'course-enroll' %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">Enroll in {{ course.title }}</button>
+        </form>
+    {% else %}
+        <p><a href="{% url 'account_login' %}">Log in</a> to enroll in this course.</p>
+    {% endif %}
 
-    <button type="submit">Enroll in Course</button>
-</form>
 {% endblock %}

@@ -106,17 +106,7 @@ class CourseEnrollmentForm(forms.ModelForm):
     """Form for enrolling in a course."""
     class Meta:
         model = CourseEnrollment
-        fields = ['course', 'student', 'completed']
-        widgets = {
-            'course': forms.Select(attrs={'class': 'form-control'}),
-            'student': forms.Select(attrs={'class': 'form-control'}),
-            'completed': forms.CheckboxInput(attrs={'class': 'form-check-input'}),
-        }
-        labels = {
-            'course': 'Select Course',
-            'student': 'Select Student',
-            'completed': 'Completed?',
-        }
+        fields = ['course']
 
 
 class ResourceCreateForm(forms.ModelForm):

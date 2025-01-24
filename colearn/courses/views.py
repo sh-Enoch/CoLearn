@@ -2,9 +2,12 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 # Create your views here.
 from .models import Course, Modules, Lessons, Quizzes, CourseEnrollment
-from .forms import CourseCreateForm, LessonsCreateForm, ModulesCreateForm, QuizzesCreateForm, CourseEnrollmentForm
+from .forms import *
 from django.shortcuts import redirect, reverse
 from django.contrib.auth.mixins import LoginRequiredMixin   
+from django.views import View
+from django.shortcuts import get_object_or_404
+from django.contrib import messages
 
 
 class CourseListView(LoginRequiredMixin, ListView):
@@ -348,3 +351,26 @@ class CourseEnrollmentDetailView(LoginRequiredMixin, DetailView):
         course_id = self.kwargs.get('pk') 
         context['student'] = CourseEnrollment.objects.filter(course_id=course_id) 
         return context
+
+
+class EnrollinCourse(LoginRequiredMixin, View):
+    """Enroll in a course."""
+    def get(self, request, *args, **kwargs):
+        """Display the enrollment form."""
+        course = get_object_or_404(Course, id=kwargs['pk'])
+        form = CourseEnrollmentForm(initial={'course': course})
+        return render(request, 'courses/course_enrollment.html', {'form': form})                                   
+
+    def post(self, request, *args, **kwargs):
+        """Enroll in a course."""
+        course = get_object_or_404(Course, id=kwargs['pk'])
+
+        # Check if the user is already enrolled in the course
+        if CourseEnrollment.objects.filter(student=request.user, course=course).exists():
+            messages.warning(request, f"You are already enrolled in {course.title}.")
+            return redirect('course-detail', pk=course.id)
+        
+        CourseEnrollment.objects.create(student=request.user, course=course)
+        messages.success(request, f"Successfully enrolled in {course.title}!")
+
+        return redirect('course-detail', pk=course.id)

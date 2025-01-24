@@ -1,11 +1,9 @@
 from django.urls import path
-from .views import CourseListView, CourseDetailView, CourseCreateView, CourseUpdateView, CourseDeleteView, ModuleListView, LessonListView, ModuleDetailView
-from .views import ModuleUpdateView, LessonUpdateView, ModuleDeleteView, LessonDeleteView, LessonDetailView, ModuleCreateView, LessonCreateView
-from .views import  CourseEnrollmentListView, CourseEnrollmentDetailView, CourseEnrollmentUpdateView, CourseEnrollmentDeleteView, CourseEnrollmentView
-from .views import QuizzesListView, QuizzesDetailView, QuizzesUpdateView, QuizzesCreateView, QuizzesDeleteView
+from .views import *
+
 urlpatterns = [
     path('', CourseListView.as_view(), name='course-list'),
-    path('<int:pk>/', CourseDetailView.as_view(), name='course-detail'),
+    path('course/<int:pk>/', CourseDetailView.as_view(), name='course-detail'),
     path('create/', CourseCreateView.as_view(), name='course-create'),
     path('<int:pk>/update/', CourseUpdateView.as_view(), name='course-update'),
     path('<int:pk>/delete/', CourseDeleteView.as_view(), name='course-delete'),
@@ -45,5 +43,10 @@ urlpatterns = [
     path('quizzes/<int:pk>/', QuizzesDetailView.as_view(), name='quizzes-detail'),
     path('quizzes/', QuizzesListView.as_view(), name='quizzes-list'),
     path('quizzes/create/', QuizzesCreateView.as_view(), name='quizzes-create'),
+
+
+    #path to handle course enrollment
+   
+    path('course/<int:pk>/enroll/', EnrollinCourse.as_view(), name='course-enroll'),
 
 ]

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'layouts/main.html' %}
 
 {% block title %}Courses{% endblock %}
 
@@ -6,9 +6,9 @@
 
 <!-- Hero Section -->
 <section class="bg-blue-600 text-white py-16">
-  <div class="container mx-auto flex flex-col items-center text-center">
+  <div class="container mx-auto flex flex-col  text-center">
     <h1 class="text-5xl font-extrabold mb-4">Explore Our Courses</h1>
-    <p class="text-lg mb-8 max-w-2xl">
+    <p class="text-lg mb-8 max-w-2xl text-center mx-auto">
       Enhance your skills with our curated collection of high-quality courses tailored to your learning needs.
     </p>
     <div class="flex flex-wrap justify-center space-x-4">
@@ -25,23 +25,20 @@
 </section>
 
 <!-- Courses Section -->
-<section class="bg-gray-50 text-gray-600 py-20" max-w-2xl mx-auto>
+<section class="bg-gray-50 text-gray-600 py-20">
   <div class="container px-5 mx-auto">
     <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">
       Our Featured Courses
     </h2>
 
     <!-- Grid container -->
-   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 max-w-screen-xl mx-auto px-4 py-6">
- 
-
-   {% for course in courses %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 max-w-screen-xl mx-auto px-4 py-6">
+     
+      {% for course in courses %}
       <!-- Course Card -->
       <div class="bg-white px-6 pt-10 pb-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
         <div class="mb-6 flex justify-center">
-          <svg class="w-14 h-14 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8V4m8 8h-4M4 12h4m4 0h4M6.93 17.07A7.975 7.975 0 004 12m4 0a7.975 7.975 0 00-4 5.07M18 12a7.975 7.975 0 00-4-5.07M12 20v-4M18.36 19.14A7.975 7.975 0 0012 20m0-8a7.975 7.975 0 004-5.07M4 12a7.975 7.975 0 004 5.07"></path>
-          </svg>
+          <!-- Icon or image here -->
         </div>
         <h2 class="text-lg font-semibold text-gray-700 mb-2">{{ course.title }}</h2>
         <h1 class="text-xl font-bold text-gray-900 mb-4">{{ course.short_title }}</h1>
@@ -57,15 +54,10 @@
         </a>
         <div class="text-center mt-6 flex justify-center absolute bottom-4 left-0 w-full">
           <span class="text-gray-400 mr-4 inline-flex items-center text-sm">
-            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-              <circle cx="12" cy="12" r="3"></circle>
-            </svg>1.2K Views
+            <!-- Views icon and count -->
           </span>
           <span class="text-gray-400 inline-flex items-center text-sm">
-            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-            </svg>6 Comments
+            <!-- Comments icon and count -->
           </span>
         </div>
       </div>

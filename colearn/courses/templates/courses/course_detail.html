@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'layouts/main.html' %}
 
 {% block title %}{{ course.title }}{% endblock %}
 
@@ -16,7 +16,7 @@
       {% if request.user.is_instructor %}
       <a href="{% url 'module-create' course.id %}" class="mt-6 bg-green-600 text-white px-3 py-3 rounded-lg shadow-md hover:bg-green-700">Create Modules</a>
       {% endif %}
-      <button class="mt-6 bg-indigo-600 text-white px-9 py-3 rounded-lg shadow-md hover:bg-indigo-700">Start Course</button>
+      <a href="{% url 'course-enroll' course.id %}" class="mt-6 bg-indigo-600 text-white px-9 py-3 rounded-lg shadow-md hover:bg-indigo-700">Start Course</a>
     </div>
 
     <!-- Module List -->
