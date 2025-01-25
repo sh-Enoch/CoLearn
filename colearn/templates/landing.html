@@ -8,10 +8,12 @@
     <div class="container" style="max-width: 800px; margin: auto;">
         <h1 style="font-family: 'Arial', sans-serif; font-size: 48px; margin-bottom: 20px;">Welcome to CoLearn</h1>
         <p style="font-family: 'Arial', sans-serif; font-size: 18px; margin-bottom: 40px;">Your collaborative learning platform.</p>
+        {% if  not  user.is_authenticated %}
         <div class="buttons">
             <a href="#" class="btn btn-primary" style="padding: 15px 30px; background-color: #007bff; border: none; border-radius: 25px; color: white; text-decoration: none; font-size: 16px; margin-right: 10px;">Get Started</a>
             <a href="{% url 'login' %}" class="btn btn-secondary" style="padding: 15px 30px; background-color: #6c757d; border: none; border-radius: 25px; color: white; text-decoration: none; font-size: 16px;">Log In</a>
         </div>
+        {% endif %}
     </div>
 </section>
 

@@ -1,16 +1,12 @@
 {% extends 'layouts/main.html' %}
 {% load tailwind_filters %}
 
-
-
 {% block header %}
-
 {{ form.media }}
-
 {% endblock%}
 
 {% block content %}
- <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
 <hr>
 <div class="bg-blue-100 p-6 rounded-lg shadow-md mb-6 max-w-4xl mx-auto">
     <h2 class="text-2xl font-bold mb-2">Welcome to the Lesson Creation Page</h2>
@@ -37,7 +33,7 @@
     <div class="bg-gray-100 p-6 rounded-lg shadow-inner mb-6">
         <form method="post" class="space-y-4">
             {% csrf_token %}
-            {{ form|crispy }}
+            {{ form.as_p }}
             <textarea id="id_content" name="content" required></textarea>
             <div class="flex justify-between mt-6 space-x-4">
                 <button type="submit" class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-500 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-800 transition ease-in-out duration-200">Create</button>
@@ -46,14 +42,20 @@
     </div>
 </div>
 
-<script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
 <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            ClassicEditor
-                .create(document.querySelector('#id_content')) // Replace '#id_content' with the actual ID of your textarea
-                .catch(error => {
-                    console.error(error);
-                });
+    document.addEventListener("DOMContentLoaded", function() {
+        ClassicEditor
+            .create(document.querySelector('#id_content'))
+            .catch(error => {
+                console.error(error);
+            });
+
+        // Ensure focus on the textarea if there's a validation error
+        document.querySelector('form').addEventListener('submit', function(event) {
+            if (document.querySelector('#id_content:invalid')) {
+                document.querySelector('#id_content').focus();
+            }
         });
-</script> 
+    });
+</script>
 {% endblock %}

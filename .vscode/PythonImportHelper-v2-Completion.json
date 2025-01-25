@@ -1517,7 +1517,7 @@
         "kind": 5,
         "importPath": "colearn.colearn.urls",
         "description": "colearn.colearn.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('student/', include('student.urls')),\n    path('courses/', include('courses.urls')),\n    path('profile/', include('student.urls')),\n    path('accounts/', include('allauth.urls')),\n    path('@<username>/', student_profile, name='profile'),\n]\nurlpatterns += [",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('student/', include('student.urls')),\n    path('courses/', include('courses.urls')),\n    path('profile/', include('student.urls')),\n    path('accounts/', include('allauth.urls')),\n    path('resources/', include('resources.urls')),\n    path('@<username>/', student_profile, name='profile'),\n]",
         "detail": "colearn.colearn.urls",
         "documentation": {}
     },

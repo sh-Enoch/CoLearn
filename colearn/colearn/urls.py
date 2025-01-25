@@ -29,6 +29,7 @@ urlpatterns = [
     path('courses/', include('courses.urls')),
     path('profile/', include('student.urls')),
     path('accounts/', include('allauth.urls')),
+    path('resources/', include('resources.urls')),
     path('@<username>/', student_profile, name='profile'),
 ]
 urlpatterns += [

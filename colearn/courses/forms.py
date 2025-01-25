@@ -48,7 +48,8 @@ class LessonsCreateForm(forms.ModelForm):
     
     class Meta:
         model = Lessons
-        fields = ['module', 'title', 'content', 'video_url', 'duration', 'order']
+        exclude = ['module']
+        fields = ['title', 'content', 'video_url', 'duration', 'order']
         widgets = {
             'module': forms.Select(attrs={'class': 'form-control'}),
             'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter lesson title'}),

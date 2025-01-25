@@ -11,7 +11,7 @@
             {% if request.user.is_authenticated %}
             <li><a href="/">Home</a></li>
             <li><a href="{% url 'course-list' %}">Courses</a></li>
-            <li><a href="">Resources</a></li>
+            <li><a href="{% url 'resources-list' %}">Resources</a></li>
             
             <li x-data="{ dropdownOpen: false }" class="relative">
                 <a @click="dropdownOpen = !dropdownOpen" @click.away="dropdownOpen = false" class="cursor-pointer select-none">
